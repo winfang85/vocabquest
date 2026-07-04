@@ -14,10 +14,13 @@
         .correct { background: #38a169 !important; border-color: #276749 !important; }
         .wrong { background: #e53e3e !important; border-color: #9b2c2c !important; }
         .next-btn { margin-top: 15px; background: #3182ce; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; display: none; width: 100%; font-size: 1rem; }
+        
+        /* 2D Arcade Interface */
         #pacman-screen { display: none; }
-        canvas { background: black; border: 4px solid blue; display: block; margin: 10px auto; max-width: 100%; }
+        canvas { background: black; border: 4px solid blue; display: block; margin: 10px auto; max-width: 100%; image-rendering: pixelated; }
         .d-pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; max-width: 180px; margin: 15px auto 0 auto; }
-        .d-btn { background: #4a5568; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 8px; }
+        .d-btn { background: #4a5568; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 8px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+        .d-btn:active { background: #718096; }
     </style>
 </head>
 <body>
@@ -31,12 +34,14 @@
 </div>
 
 <div id="pacman-screen" class="game-container">
-    <h2 style="color: #ecc94b; margin: 0 0 10px 0;">🌟 Arcade Reward Break! 🌟</h2>
-    <canvas id="pacCanvas" width="300" height="150"></canvas>
+    <h2 style="color: #ecc94b; margin: 0 0 5px 0;">🌟 Arcade Reward Break! 🌟</h2>
+    <p style="margin: 0 0 10px 0; font-size: 0.85rem; color: #a0aec0;">Clear the maze! Don't let Blinky catch you!</p>
+    <canvas id="pacCanvas" width="280" height="280"></canvas>
+    
     <div class="d-pad">
-        <div></div><button class="d-btn" onclick="changeDir(0,-1)">▲</button><div></div>
-        <button class="d-btn" onclick="changeDir(-1,0)">◀</button><div></div><button class="d-btn" onclick="changeDir(1,0)">▶</button>
-        <div></div><button class="d-btn" onclick="changeDir(0,1)">▼</button><div></div>
+        <div></div><button class="d-btn" onclick="setNextDir(0,-1)">▲</button><div></div>
+        <button class="d-btn" onclick="setNextDir(-1,0)">◀</button><div></div><button class="d-btn" onclick="setNextDir(1,0)">▶</button>
+        <div></div><button class="d-btn" onclick="setNextDir(0,1)">▼</button><div></div>
     </div>
     <button class="next-btn" style="display:block; background:#e53e3e; margin-top:20px;" onclick="returnToVocab()">Back to Studying</button>
 </div>
@@ -47,12 +52,10 @@
     let correctCount = 0;
     let answered = false;
 
-    // FETCH DATASET EFFORTLESSLY FROM THE SEPARATE JSON FILE
     async function initGame() {
         try {
             const response = await fetch('words.json');
             vocabData = await response.json();
-            // Shuffle dataset once so it's a random experience every time they open it
             vocabData.sort(() => Math.random() - 0.5);
             loadQuestion();
         } catch (error) {
@@ -70,7 +73,6 @@
         document.getElementById("badge").innerText = current.type;
         document.getElementById("word").innerText = current.word;
         
-        // AUTOMATICALLY DYNAMICALLY GENERATE WRONG ANSWERS FROM THE DATASET
         let wrongOptions = vocabData
             .filter(item => item.answer !== current.answer)
             .sort(() => Math.random() - 0.5)
@@ -81,7 +83,6 @@
         
         let optionsHtml = "";
         finalOptions.forEach(opt => {
-            // Safely handle quotes in strings inside inline click handlers
             let escapedOpt = opt.replace(/'/g, "\\'");
             let escapedAns = current.answer.replace(/'/g, "\\'");
             optionsHtml += `<button class="btn" onclick="checkAnswer(this, '${escapedOpt}', '${escapedAns}')">${opt}</button>`;
@@ -114,37 +115,194 @@
         }
     }
 
-    /* PACMAN MINI GAME ENGINE */
+    /* ---------------- CLASSIC 2D MAZE ENGINE ---------------- */
     const canvas = document.getElementById("pacCanvas");
     const ctx = canvas.getContext("2d");
-    let pacman, ghost, dots, gameLoopInterval;
+    const tileSize = 20;
+
+    // 14x14 grid map layout: 1=Wall, 2=Dot, 0=Empty
+    const originalMap = [
+        [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+        [1,2,2,2,2,2,1,1,2,2,2,2,2,1],
+        [1,2,1,1,1,2,1,1,2,1,1,1,2,1],
+        [1,2,1,1,1,2,2,2,2,1,1,1,2,1],
+        [1,2,2,2,2,1,1,1,1,2,2,2,2,1],
+        [1,1,1,2,2,2,2,2,2,2,2,1,1,1],
+        [1,1,1,2,1,1,0,0,1,1,2,1,1,1],
+        [1,2,2,2,1,0,0,0,0,1,2,2,2,1],
+        [1,2,1,2,1,1,1,1,1,1,2,1,2,1],
+        [1,2,1,2,2,2,2,2,2,2,2,1,2,1],
+        [1,2,1,1,1,2,1,1,2,1,1,1,2,1],
+        [1,2,2,2,2,2,1,1,2,2,2,2,2,1],
+        [1,1,1,1,1,2,1,1,2,1,1,1,1,1],
+        [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+    ];
+
+    let map = [];
+    let pacman, ghost, gameLoopInterval;
+    let nextDx = 0, nextDy = 0; // Buffer for fluid mobile input alignment
 
     function startPacmanReward() {
         document.getElementById("vocab-screen").style.display = "none";
         document.getElementById("pacman-screen").style.display = "block";
-        pacman = { x: 20, y: 75, dx: 1, dy: 0, r: 10 };
-        ghost = { x: 260, y: 75, speed: 1.3 };
-        dots = [];
-        for(let i = 50; i < 280; i += 25) { dots.push({ x: i, y: 75, eaten: false }); }
+        
+        // Deep clone the map layout to replenish dots when game reloads
+        map = JSON.parse(JSON.stringify(originalMap));
+        
+        // Grid spawn locations multiplied by tileSize
+        pacman = { x: 1 * tileSize, y: 1 * tileSize, dx: 0, dy: 0, targetX: 1 * tileSize, targetY: 1 * tileSize, speed: 2 };
+        ghost = { x: 7 * tileSize, y: 7 * tileSize, targetX: 7 * tileSize, targetY: 7 * tileSize, speed: 1.5 };
+        
+        nextDx = 0; nextDy = 0;
         clearInterval(gameLoopInterval);
-        gameLoopInterval = setInterval(updatePacmanGame, 1000 / 30);
+        gameLoopInterval = setInterval(updatePacmanGame, 1000 / 60); // Clean 60fps tracking
     }
 
-    function changeDir(x, y) { pacman.dx = x; pacman.dy = y; }
+    function setNextDir(x, y) {
+        nextDx = x;
+        nextDy = y;
+    }
+
+    // Computer keyboard mapping
+    window.addEventListener("keydown", e => {
+        if(e.key === "ArrowUp") setNextDir(0, -1);
+        if(e.key === "ArrowDown") setNextDir(0, 1);
+        if(e.key === "ArrowLeft") setNextDir(-1, 0);
+        if(e.key === "ArrowRight") setNextDir(1, 0);
+    });
+
+    function isWall(pixelX, pixelY) {
+        let tileX = Math.floor(pixelX / tileSize);
+        let tileY = Math.floor(pixelY / tileSize);
+        if(tileX < 0 || tileX >= 14 || tileY < 0 || tileY >= 14) return true;
+        return map[tileY][tileX] === 1;
+    }
+
+    function countDots() {
+        let total = 0;
+        for(let r=0; r<14; r++) {
+            for(let c=0; c<14; c++) { if(map[r][c] === 2) total++; }
+        }
+        return total;
+    }
 
     function updatePacmanGame() {
-        pacman.x += pacman.dx * 3; pacman.y += pacman.dy * 3;
-        if(pacman.x < 10) pacman.x = 10; if(pacman.x > 290) pacman.x = 290;
-        if(pacman.y < 10) pacman.y = 10; if(pacman.y > 140) pacman.y = 140;
-        if (ghost.x < pacman.x) ghost.x += ghost.speed; else ghost.x -= ghost.speed;
-        if (ghost.y < pacman.y) ghost.y += ghost.speed; else ghost.y -= ghost.speed;
-        dots.forEach(d => { if(Math.hypot(pacman.x - d.x, pacman.y - d.y) < 12) d.eaten = true; });
-        if(Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y) < 16 || dots.every(d => d.eaten)) { returnToVocab(); }
-        
+        // --- PACMAN ALIGNMENT & NAVIGATION ---
+        if (pacman.x === pacman.targetX && pacman.y === pacman.targetY) {
+            // Check for dot collection
+            let currentTileX = pacman.x / tileSize;
+            let currentTileY = pacman.y / tileSize;
+            if (map[currentTileY][currentTileX] === 2) {
+                map[currentTileY][currentTileX] = 0; // Consume dot
+            }
+
+            // Apply queued direction shift from D-pad if no wall obstruction
+            if (nextDx !== 0 || nextDy !== 0) {
+                if (!isWall(pacman.x + nextDx * tileSize, pacman.y + nextDy * tileSize)) {
+                    pacman.dx = nextDx;
+                    pacman.dy = nextDy;
+                }
+            }
+            // Check structural obstructions for current forward movement vector
+            if (isWall(pacman.x + pacman.dx * tileSize, pacman.y + pacman.dy * tileSize)) {
+                pacman.dx = 0;
+                pacman.dy = 0;
+            } else {
+                pacman.targetX = pacman.x + pacman.dx * tileSize;
+                pacman.targetY = pacman.y + pacman.dy * tileSize;
+            }
+        }
+
+        // Advance Pacman coordinates smoothly toward grid node
+        if (pacman.x < pacman.targetX) pacman.x += pacman.speed;
+        if (pacman.x > pacman.targetX) pacman.x -= pacman.speed;
+        if (pacman.y < pacman.targetY) pacman.y += pacman.speed;
+        if (pacman.y > pacman.targetY) pacman.y -= pacman.speed;
+
+
+        // --- GHOST HUNTING INTELLIGENCE (Tile-Based AI) ---
+        if (ghost.x === ghost.targetX && ghost.y === ghost.targetY) {
+            let gTileX = ghost.x / tileSize;
+            let gTileY = ghost.y / tileSize;
+
+            // Compute possible direction directions
+            let choices = [];
+            let dirs = [{x:1,y:0}, {x:-1,y:0}, {x:0,y:1}, {x:0,y:-1}];
+            
+            dirs.forEach(d => {
+                if (!isWall(ghost.x + d.x * tileSize, ghost.y + d.y * tileSize)) {
+                    choices.push(d);
+                }
+            });
+
+            if (choices.length > 0) {
+                // Ghost calculates which alternative direction paths get closest to Pacman's current coordinates
+                choices.sort((a, b) => {
+                    let distA = Math.hypot((ghost.x + a.x*tileSize) - pacman.x, (ghost.y + a.y*tileSize) - pacman.y);
+                    let distB = Math.hypot((ghost.x + b.x*tileSize) - pacman.x, (ghost.y + b.y*tileSize) - pacman.y);
+                    return distA - distB;
+                });
+                
+                // Add minor random variety so ghost isn't 100% predictable
+                let finalMove = (Math.random() < 0.85) ? choices[0] : choices[Math.floor(Math.random() * choices.length)];
+                ghost.targetX = ghost.x + finalMove.x * tileSize;
+                ghost.targetY = ghost.y + finalMove.y * tileSize;
+            }
+        }
+
+        // Advance Ghost coordinates smoothly toward grid node
+        if (ghost.x < ghost.targetX) ghost.x += ghost.speed;
+        if (ghost.x > ghost.targetX) ghost.x -= ghost.speed;
+        if (ghost.y < ghost.targetY) ghost.y += ghost.speed;
+        if (ghost.y > ghost.targetY) ghost.y -= ghost.speed;
+
+
+        // --- CORE WIN / LOSE CONDITIONS ---
+        let colDist = Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y);
+        if (colDist < 14) {
+            alert("💥 Caught by Blinky! Back to vocabulary training!");
+            returnToVocab();
+            return;
+        }
+
+        if (countDots() === 0) {
+            alert("🏆 Flawless! You cleared the classic 2D maze map layout!");
+            returnToVocab();
+            return;
+        }
+
+        // --- GRAPHICS RENDERING LAYER ---
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        dots.forEach(d => { if(!d.eaten) { ctx.fillStyle = "#ffb8ae"; ctx.beginPath(); ctx.arc(d.x, d.y, 4, 0, Math.PI * 2); ctx.fill(); } });
-        ctx.fillStyle = "#ecc94b"; ctx.beginPath(); ctx.arc(pacman.x, pacman.y, pacman.r, 0.2 * Math.PI, 1.8 * Math.PI); ctx.lineTo(pacman.x, pacman.y); ctx.fill();
-        ctx.fillStyle = "#e53e3e"; ctx.beginPath(); ctx.arc(ghost.x, ghost.y - 2, 9, Math.PI, 0, false); ctx.lineTo(ghost.x + 9, ghost.y + 9); ctx.lineTo(ghost.x - 9, ghost.y + 9); ctx.fill();
+
+        // Draw structural walls and game dots
+        for (let r = 0; r < 14; r++) {
+            for (let c = 0; c < 14; c++) {
+                if (map[r][c] === 1) {
+                    ctx.fillStyle = "#1a365d"; // Structural Deep Dark Blue Walls
+                    ctx.fillRect(c * tileSize + 1, r * tileSize + 1, tileSize - 2, tileSize - 2);
+                } else if (map[r][c] === 2) {
+                    ctx.fillStyle = "#feb2b2"; // Arcade Coral Yellow Dots
+                    ctx.beginPath();
+                    ctx.arc(c * tileSize + tileSize/2, r * tileSize + tileSize/2, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+        }
+
+        // Draw Pacman
+        ctx.fillStyle = "#ecc94b";
+        ctx.beginPath();
+        ctx.arc(pacman.x + tileSize/2, pacman.y + tileSize/2, 8, 0.2 * Math.PI, 1.8 * Math.PI);
+        ctx.lineTo(pacman.x + tileSize/2, pacman.y + tileSize/2);
+        ctx.fill();
+
+        // Draw Ghost
+        ctx.fillStyle = "#e53e3e";
+        ctx.beginPath();
+        ctx.arc(ghost.x + tileSize/2, ghost.y + tileSize/2 - 2, 8, Math.PI, 0, false);
+        ctx.lineTo(ghost.x + tileSize/2 + 8, ghost.y + tileSize/2 + 8);
+        ctx.lineTo(ghost.x + tileSize/2 - 8, ghost.y + tileSize/2 + 8);
+        ctx.fill();
     }
 
     function returnToVocab() {
