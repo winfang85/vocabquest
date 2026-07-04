@@ -3,319 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vocab Quest Pro</title>
+    <title>Vocab Quest Arcade</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #1a202c; color: white; margin: 0; padding: 10px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        .game-container { background: #2d3748; border-radius: 16px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); max-width: 400px; width: 100%; text-align: center; box-sizing: border-box; }
-        .badge { background: #4a5568; color: #e2e8f0; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; display: inline-block; margin-bottom: 12px; }
-        .word { font-size: 1.8rem; margin: 10px 0 20px 0; font-weight: bold; }
-        .options-container { display: flex; flex-direction: column; gap: 12px; }
-        .btn { background: #4a5568; border: 2px solid #718096; color: white; border-radius: 8px; padding: 14px; font-size: 0.95rem; cursor: pointer; text-align: left; transition: background 0.2s; }
-        .correct { background: #38a169 !important; border-color: #276749 !important; }
-        .wrong { background: #e53e3e !important; border-color: #9b2c2c !important; }
-        .next-btn { margin-top: 15px; background: #3182ce; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; display: none; width: 100%; font-size: 1rem; }
-        
-        /* 2D Arcade Interface */
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --accent-blue: #38bdf8;
+            --accent-green: #4ade80;
+            --accent-red: #f87171;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .game-container {
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 28px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        .badge {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-block;
+            margin-bottom: 16px;
+        }
+
+        .word {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            margin: 10px 0 24px 0;
+            background: linear-gradient(to right, #ffffff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .btn {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            border-radius: 14px;
+            padding: 16px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            line-height: 1.4;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .correct {
+            background: rgba(74, 222, 128, 0.15) !important;
+            border-color: var(--accent-green) !important;
+            color: var(--accent-green) !important;
+            font-weight: 600;
+            box-shadow: 0 0 15px rgba(74, 222, 128, 0.1);
+        }
+
+        .wrong {
+            background: rgba(248, 113, 113, 0.15) !important;
+            border-color: var(--accent-red) !important;
+            color: var(--accent-red) !important;
+            box-shadow: 0 0 15px rgba(248, 113, 113, 0.1);
+        }
+
+        .score-board {
+            margin-top: 28px;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .score-num {
+            color: var(--accent-blue);
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        /* Giant Unlocked Reward Button */
+        .unlock-btn {
+            margin-top: 20px;
+            background: linear-gradient(135deg, #ecc94b 0%, #d69e2e 100%);
+            color: #000;
+            border: none;
+            padding: 16px;
+            border-radius: 14px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 0 20px rgba(236, 201, 75, 0.4);
+            animation: pulse 1.5s infinite;
+            display: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 20px rgba(236, 201, 75, 0.4); }
+            50% { transform: scale(1.02); box-shadow: 0 0 30px rgba(236, 201, 75, 0.7); }
+            100% { transform: scale(1); box-shadow: 0 0 20px rgba(236, 201, 75, 0.4); }
+        }
+
+        /* Arcade Maze Interface Adjustments */
         #pacman-screen { display: none; }
-        canvas { background: black; border: 4px solid blue; display: block; margin: 10px auto; max-width: 100%; image-rendering: pixelated; }
-        .d-pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; max-width: 180px; margin: 15px auto 0 auto; }
-        .d-btn { background: #4a5568; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 8px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-        .d-btn:active { background: #718096; }
-    </style>
-</head>
-<body>
-
-<div id="vocab-screen" class="game-container">
-    <div id="badge" class="badge">Loading Database...</div>
-    <div id="word" class="word">Please wait...</div>
-    <div id="options" class="options-container"></div>
-    <button id="next-btn" class="next-btn" onclick="nextQuestion()">Next Word ➔</button>
-    <div style="margin-top:20px; color:#cbd5e0;">Streak: <span id="score">0</span> / 15</div>
-</div>
-
-<div id="pacman-screen" class="game-container">
-    <h2 style="color: #ecc94b; margin: 0 0 5px 0;">🌟 Arcade Reward Break! 🌟</h2>
-    <p style="margin: 0 0 10px 0; font-size: 0.85rem; color: #a0aec0;">Clear the maze! Don't let Blinky catch you!</p>
-    <canvas id="pacCanvas" width="280" height="280"></canvas>
-    
-    <div class="d-pad">
-        <div></div><button class="d-btn" onclick="setNextDir(0,-1)">▲</button><div></div>
-        <button class="d-btn" onclick="setNextDir(-1,0)">◀</button><div></div><button class="d-btn" onclick="setNextDir(1,0)">▶</button>
-        <div></div><button class="d-btn" onclick="setNextDir(0,1)">▼</button><div></div>
-    </div>
-    <button class="next-btn" style="display:block; background:#e53e3e; margin-top:20px;" onclick="returnToVocab()">Back to Studying</button>
-</div>
-
-<script>
-    let vocabData = [];
-    let currentIndex = 0;
-    let correctCount = 0;
-    let answered = false;
-
-    async function initGame() {
-        try {
-            const response = await fetch('words.json');
-            vocabData = await response.json();
-            vocabData.sort(() => Math.random() - 0.5);
-            loadQuestion();
-        } catch (error) {
-            document.getElementById("word").innerText = "Failed to load words.json!";
-            console.error(error);
-        }
-    }
-
-    function loadQuestion() {
-        if(vocabData.length === 0) return;
-        answered = false;
-        document.getElementById("next-btn").style.display = "none";
-        
-        let current = vocabData[currentIndex];
-        document.getElementById("badge").innerText = current.type;
-        document.getElementById("word").innerText = current.word;
-        
-        let wrongOptions = vocabData
-            .filter(item => item.answer !== current.answer)
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 2)
-            .map(item => item.answer);
-
-        let finalOptions = [current.answer, ...wrongOptions].sort(() => Math.random() - 0.5);
-        
-        let optionsHtml = "";
-        finalOptions.forEach(opt => {
-            let escapedOpt = opt.replace(/'/g, "\\'");
-            let escapedAns = current.answer.replace(/'/g, "\\'");
-            optionsHtml += `<button class="btn" onclick="checkAnswer(this, '${escapedOpt}', '${escapedAns}')">${opt}</button>`;
-        });
-        document.getElementById("options").innerHTML = optionsHtml;
-    }
-
-    function checkAnswer(button, selected, correct) {
-        if(answered) return;
-        answered = true;
-        if(selected === correct) {
-            button.classList.add('correct');
-            correctCount++;
-            document.getElementById("score").innerText = correctCount;
-        } else {
-            button.classList.add('wrong');
-            Array.from(document.getElementById("options").children).forEach(btn => {
-                if(btn.innerText === correct) btn.classList.add('correct');
-            });
-        }
-        document.getElementById("next-btn").style.display = "block";
-    }
-
-    function nextQuestion() {
-        if (correctCount >= 15) {
-            startPacmanReward();
-        } else {
-            currentIndex = (currentIndex + 1) % vocabData.length;
-            loadQuestion();
-        }
-    }
-
-    /* ---------------- CLASSIC 2D MAZE ENGINE ---------------- */
-    const canvas = document.getElementById("pacCanvas");
-    const ctx = canvas.getContext("2d");
-    const tileSize = 20;
-
-    // 14x14 grid map layout: 1=Wall, 2=Dot, 0=Empty
-    const originalMap = [
-        [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,2,2,2,2,2,1,1,2,2,2,2,2,1],
-        [1,2,1,1,1,2,1,1,2,1,1,1,2,1],
-        [1,2,1,1,1,2,2,2,2,1,1,1,2,1],
-        [1,2,2,2,2,1,1,1,1,2,2,2,2,1],
-        [1,1,1,2,2,2,2,2,2,2,2,1,1,1],
-        [1,1,1,2,1,1,0,0,1,1,2,1,1,1],
-        [1,2,2,2,1,0,0,0,0,1,2,2,2,1],
-        [1,2,1,2,1,1,1,1,1,1,2,1,2,1],
-        [1,2,1,2,2,2,2,2,2,2,2,1,2,1],
-        [1,2,1,1,1,2,1,1,2,1,1,1,2,1],
-        [1,2,2,2,2,2,1,1,2,2,2,2,2,1],
-        [1,1,1,1,1,2,1,1,2,1,1,1,1,1],
-        [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-    ];
-
-    let map = [];
-    let pacman, ghost, gameLoopInterval;
-    let nextDx = 0, nextDy = 0; // Buffer for fluid mobile input alignment
-
-    function startPacmanReward() {
-        document.getElementById("vocab-screen").style.display = "none";
-        document.getElementById("pacman-screen").style.display = "block";
-        
-        // Deep clone the map layout to replenish dots when game reloads
-        map = JSON.parse(JSON.stringify(originalMap));
-        
-        // Grid spawn locations multiplied by tileSize
-        pacman = { x: 1 * tileSize, y: 1 * tileSize, dx: 0, dy: 0, targetX: 1 * tileSize, targetY: 1 * tileSize, speed: 2 };
-        ghost = { x: 7 * tileSize, y: 7 * tileSize, targetX: 7 * tileSize, targetY: 7 * tileSize, speed: 1.5 };
-        
-        nextDx = 0; nextDy = 0;
-        clearInterval(gameLoopInterval);
-        gameLoopInterval = setInterval(updatePacmanGame, 1000 / 60); // Clean 60fps tracking
-    }
-
-    function setNextDir(x, y) {
-        nextDx = x;
-        nextDy = y;
-    }
-
-    // Computer keyboard mapping
-    window.addEventListener("keydown", e => {
-        if(e.key === "ArrowUp") setNextDir(0, -1);
-        if(e.key === "ArrowDown") setNextDir(0, 1);
-        if(e.key === "ArrowLeft") setNextDir(-1, 0);
-        if(e.key === "ArrowRight") setNextDir(1, 0);
-    });
-
-    function isWall(pixelX, pixelY) {
-        let tileX = Math.floor(pixelX / tileSize);
-        let tileY = Math.floor(pixelY / tileSize);
-        if(tileX < 0 || tileX >= 14 || tileY < 0 || tileY >= 14) return true;
-        return map[tileY][tileX] === 1;
-    }
-
-    function countDots() {
-        let total = 0;
-        for(let r=0; r<14; r++) {
-            for(let c=0; c<14; c++) { if(map[r][c] === 2) total++; }
-        }
-        return total;
-    }
-
-    function updatePacmanGame() {
-        // --- PACMAN ALIGNMENT & NAVIGATION ---
-        if (pacman.x === pacman.targetX && pacman.y === pacman.targetY) {
-            // Check for dot collection
-            let currentTileX = pacman.x / tileSize;
-            let currentTileY = pacman.y / tileSize;
-            if (map[currentTileY][currentTileX] === 2) {
-                map[currentTileY][currentTileX] = 0; // Consume dot
-            }
-
-            // Apply queued direction shift from D-pad if no wall obstruction
-            if (nextDx !== 0 || nextDy !== 0) {
-                if (!isWall(pacman.x + nextDx * tileSize, pacman.y + nextDy * tileSize)) {
-                    pacman.dx = nextDx;
-                    pacman.dy = nextDy;
-                }
-            }
-            // Check structural obstructions for current forward movement vector
-            if (isWall(pacman.x + pacman.dx * tileSize, pacman.y + pacman.dy * tileSize)) {
-                pacman.dx = 0;
-                pacman.dy = 0;
-            } else {
-                pacman.targetX = pacman.x + pacman.dx * tileSize;
-                pacman.targetY = pacman.y + pacman.dy * tileSize;
-            }
-        }
-
-        // Advance Pacman coordinates smoothly toward grid node
-        if (pacman.x < pacman.targetX) pacman.x += pacman.speed;
-        if (pacman.x > pacman.targetX) pacman.x -= pacman.speed;
-        if (pacman.y < pacman.targetY) pacman.y += pacman.speed;
-        if (pacman.y > pacman.targetY) pacman.y -= pacman.speed;
-
-
-        // --- GHOST HUNTING INTELLIGENCE (Tile-Based AI) ---
-        if (ghost.x === ghost.targetX && ghost.y === ghost.targetY) {
-            let gTileX = ghost.x / tileSize;
-            let gTileY = ghost.y / tileSize;
-
-            // Compute possible direction directions
-            let choices = [];
-            let dirs = [{x:1,y:0}, {x:-1,y:0}, {x:0,y:1}, {x:0,y:-1}];
-            
-            dirs.forEach(d => {
-                if (!isWall(ghost.x + d.x * tileSize, ghost.y + d.y * tileSize)) {
-                    choices.push(d);
-                }
-            });
-
-            if (choices.length > 0) {
-                // Ghost calculates which alternative direction paths get closest to Pacman's current coordinates
-                choices.sort((a, b) => {
-                    let distA = Math.hypot((ghost.x + a.x*tileSize) - pacman.x, (ghost.y + a.y*tileSize) - pacman.y);
-                    let distB = Math.hypot((ghost.x + b.x*tileSize) - pacman.x, (ghost.y + b.y*tileSize) - pacman.y);
-                    return distA - distB;
-                });
-                
-                // Add minor random variety so ghost isn't 100% predictable
-                let finalMove = (Math.random() < 0.85) ? choices[0] : choices[Math.floor(Math.random() * choices.length)];
-                ghost.targetX = ghost.x + finalMove.x * tileSize;
-                ghost.targetY = ghost.y + finalMove.y * tileSize;
-            }
-        }
-
-        // Advance Ghost coordinates smoothly toward grid node
-        if (ghost.x < ghost.targetX) ghost.x += ghost.speed;
-        if (ghost.x > ghost.targetX) ghost.x -= ghost.speed;
-        if (ghost.y < ghost.targetY) ghost.y += ghost.speed;
-        if (ghost.y > ghost.targetY) ghost.y -= ghost.speed;
-
-
-        // --- CORE WIN / LOSE CONDITIONS ---
-        let colDist = Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y);
-        if (colDist < 14) {
-            alert("💥 Caught by Blinky! Back to vocabulary training!");
-            returnToVocab();
-            return;
-        }
-
-        if (countDots() === 0) {
-            alert("🏆 Flawless! You cleared the classic 2D maze map layout!");
-            returnToVocab();
-            return;
-        }
-
-        // --- GRAPHICS RENDERING LAYER ---
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        // Draw structural walls and game dots
-        for (let r = 0; r < 14; r++) {
-            for (let c = 0; c < 14; c++) {
-                if (map[r][c] === 1) {
-                    ctx.fillStyle = "#1a365d"; // Structural Deep Dark Blue Walls
-                    ctx.fillRect(c * tileSize + 1, r * tileSize + 1, tileSize - 2, tileSize - 2);
-                } else if (map[r][c] === 2) {
-                    ctx.fillStyle = "#feb2b2"; // Arcade Coral Yellow Dots
-                    ctx.beginPath();
-                    ctx.arc(c * tileSize + tileSize/2, r * tileSize + tileSize/2, 3, 0, Math.PI * 2);
-                    ctx.fill();
-                }
-            }
-        }
-
-        // Draw Pacman
-        ctx.fillStyle = "#ecc94b";
-        ctx.beginPath();
-        ctx.arc(pacman.x + tileSize/2, pacman.y + tileSize/2, 8, 0.2 * Math.PI, 1.8 * Math.PI);
-        ctx.lineTo(pacman.x + tileSize/2, pacman.y + tileSize/2);
-        ctx.fill();
-
-        // Draw Ghost
-        ctx.fillStyle = "#e53e3e";
-        ctx.beginPath();
-        ctx.arc(ghost.x + tileSize/2, ghost.y + tileSize/2 - 2, 8, Math.PI, 0, false);
-        ctx.lineTo(ghost.x + tileSize/2 + 8, ghost.y + tileSize/2 + 8);
-        ctx.lineTo(ghost.x + tileSize/2 - 8, ghost.y + tileSize/2 + 8);
-        ctx.fill();
-    }
-
-    function returnToVocab() {
-        clearInterval(gameLoopInterval);
-        correctCount = 0;
-        document.getElementById("score").innerText = correctCount;
-        document.getElementById("pacman-screen").style.display = "none";
-        document.getElementById("vocab-screen").style.display = "block";
-        currentIndex = (currentIndex + 1) % vocabData.length;
-        loadQuestion();
-    }
-
-    window.onload = initGame;
-</script>
-</body>
-</html>
+        canvas { background: #000; border: 4px solid #1d4ed8; border-radius: 12
