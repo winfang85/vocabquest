@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocab Quest Pro</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #1a202c; color: white; margin: 0; padding: 10px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .game-container { background: #2d3748; border-radius: 16px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); max-width: 400px; width: 100%; text-align: center; box-sizing: border-box; }
+        .badge { background: #4a5568; color: #e2e8f0; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; display: inline-block; margin-bottom: 12px; }
+        .word { font-size: 1.8rem; margin: 10px 0 20px 0; font-weight: bold; }
+        .options-container { display: flex; flex-direction: column; gap: 12px; }
+        .btn { background: #4a5568; border: 2px solid #718096; color: white; border-radius: 8px; padding: 14px; font-size: 0.95rem; cursor: pointer; text-align: left; transition: background 0.2s; }
+        .correct { background: #38a169 !important; border-color: #276749 !important; }
+        .wrong { background: #e53e3e !important; border-color: #9b2c2c !important; }
+        .next-btn { margin-top: 15px; background: #3182ce; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; display: none; width: 100%; font-size: 1rem; }
+        #pacman-screen { display: none; }
+        canvas { background: black; border: 4px solid blue; display: block; margin: 10px auto; max-width: 100%; }
+        .d-pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; max-width: 180px; margin: 15px auto 0 auto; }
+        .d-btn { background: #4a5568; color: white; border: none; padding: 15px; font-size: 1.2rem; font-weight: bold; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+<div id="vocab-screen" class="game-container">
+    <div id="badge" class="badge">Loading Database...</div>
+    <div id="word" class="word">Please wait...</div>
+    <div id="options" class="options-container"></div>
+    <button id="next-btn" class="next-btn" onclick="nextQuestion()">Next Word ➔</button>
+    <div style="margin-top:20px; color:#cbd5e0;">Streak: <span id="score">0</span> / 15</div>
+</div>
+
+<div id="pacman-screen" class="game-container">
+    <h2 style="color: #ecc94b; margin: 0 0 10px 0;">🌟 Arcade Reward Break! 🌟</h2>
+    <canvas id="pacCanvas" width="300" height="150"></canvas>
+    <div class="d-pad">
+        <div></div><button class="d-btn" onclick="changeDir(0,-1)">▲</button><div></div>
+        <button class="d-btn" onclick="changeDir(-1,0)">◀</button><div></div><button class="d-btn" onclick="changeDir(1,0)">▶</button>
+        <div></div><button class="d-btn" onclick="changeDir(0,1)">▼</button><div></div>
+    </div>
+    <button class="next-btn" style="display:block; background:#e53e3e; margin-top:20px;" onclick="returnToVocab()">Back to Studying</button>
+</div>
+
+<script>
+    let vocabData = [];
+    let currentIndex = 0;
+    let correctCount = 0;
+    let answered = false;
+
+    // FETCH DATASET EFFORTLESSLY FROM THE SEPARATE JSON FILE
+    async function initGame() {
+        try {
+            const response = await fetch('words.json');
+            vocabData = await response.json();
+            // Shuffle dataset once so it's a random experience every time they open it
+            vocabData.sort(() => Math.random() - 0.5);
+            loadQuestion();
+        } catch (error) {
+            document.getElementById("word").innerText = "Failed to load words.json!";
+            console.error(error);
+        }
+    }
+
+    function loadQuestion() {
+        if(vocabData.length === 0) return;
+        answered = false;
+        document.getElementById("next-btn").style.display = "none";
+        
+        let current = vocabData[currentIndex];
+        document.getElementById("badge").innerText = current.type;
+        document.getElementById("word").innerText = current.word;
+        
+        // AUTOMATICALLY DYNAMICALLY GENERATE WRONG ANSWERS FROM THE DATASET
+        let wrongOptions = vocabData
+            .filter(item => item.answer !== current.answer)
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 2)
+            .map(item => item.answer);
+
+        let finalOptions = [current.answer, ...wrongOptions].sort(() => Math.random() - 0.5);
+        
+        let optionsHtml = "";
+        finalOptions.forEach(opt => {
+            // Safely handle quotes in strings inside inline click handlers
+            let escapedOpt = opt.replace(/'/g, "\\'");
+            let escapedAns = current.answer.replace(/'/g, "\\'");
+            optionsHtml += `<button class="btn" onclick="checkAnswer(this, '${escapedOpt}', '${escapedAns}')">${opt}</button>`;
+        });
+        document.getElementById("options").innerHTML = optionsHtml;
+    }
+
+    function checkAnswer(button, selected, correct) {
+        if(answered) return;
+        answered = true;
+        if(selected === correct) {
+            button.classList.add('correct');
+            correctCount++;
+            document.getElementById("score").innerText = correctCount;
+        } else {
+            button.classList.add('wrong');
+            Array.from(document.getElementById("options").children).forEach(btn => {
+                if(btn.innerText === correct) btn.classList.add('correct');
+            });
+        }
+        document.getElementById("next-btn").style.display = "block";
+    }
+
+    function nextQuestion() {
+        if (correctCount >= 15) {
+            startPacmanReward();
+        } else {
+            currentIndex = (currentIndex + 1) % vocabData.length;
+            loadQuestion();
+        }
+    }
+
+    /* PACMAN MINI GAME ENGINE */
+    const canvas = document.getElementById("pacCanvas");
+    const ctx = canvas.getContext("2d");
+    let pacman, ghost, dots, gameLoopInterval;
+
+    function startPacmanReward() {
+        document.getElementById("vocab-screen").style.display = "none";
+        document.getElementById("pacman-screen").style.display = "block";
+        pacman = { x: 20, y: 75, dx: 1, dy: 0, r: 10 };
+        ghost = { x: 260, y: 75, speed: 1.3 };
+        dots = [];
+        for(let i = 50; i < 280; i += 25) { dots.push({ x: i, y: 75, eaten: false }); }
+        clearInterval(gameLoopInterval);
+        gameLoopInterval = setInterval(updatePacmanGame, 1000 / 30);
+    }
+
+    function changeDir(x, y) { pacman.dx = x; pacman.dy = y; }
+
+    function updatePacmanGame() {
+        pacman.x += pacman.dx * 3; pacman.y += pacman.dy * 3;
+        if(pacman.x < 10) pacman.x = 10; if(pacman.x > 290) pacman.x = 290;
+        if(pacman.y < 10) pacman.y = 10; if(pacman.y > 140) pacman.y = 140;
+        if (ghost.x < pacman.x) ghost.x += ghost.speed; else ghost.x -= ghost.speed;
+        if (ghost.y < pacman.y) ghost.y += ghost.speed; else ghost.y -= ghost.speed;
+        dots.forEach(d => { if(Math.hypot(pacman.x - d.x, pacman.y - d.y) < 12) d.eaten = true; });
+        if(Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y) < 16 || dots.every(d => d.eaten)) { returnToVocab(); }
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        dots.forEach(d => { if(!d.eaten) { ctx.fillStyle = "#ffb8ae"; ctx.beginPath(); ctx.arc(d.x, d.y, 4, 0, Math.PI * 2); ctx.fill(); } });
+        ctx.fillStyle = "#ecc94b"; ctx.beginPath(); ctx.arc(pacman.x, pacman.y, pacman.r, 0.2 * Math.PI, 1.8 * Math.PI); ctx.lineTo(pacman.x, pacman.y); ctx.fill();
+        ctx.fillStyle = "#e53e3e"; ctx.beginPath(); ctx.arc(ghost.x, ghost.y - 2, 9, Math.PI, 0, false); ctx.lineTo(ghost.x + 9, ghost.y + 9); ctx.lineTo(ghost.x - 9, ghost.y + 9); ctx.fill();
+    }
+
+    function returnToVocab() {
+        clearInterval(gameLoopInterval);
+        correctCount = 0;
+        document.getElementById("score").innerText = correctCount;
+        document.getElementById("pacman-screen").style.display = "none";
+        document.getElementById("vocab-screen").style.display = "block";
+        currentIndex = (currentIndex + 1) % vocabData.length;
+        loadQuestion();
+    }
+
+    window.onload = initGame;
+</script>
+</body>
+</html>
