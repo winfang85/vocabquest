@@ -1,12 +1,5002 @@
 [
-  { "word": "Taxidermist", "type": "Occupation", "answer": "A person who prepares and stuffs dead animal skins to look lifelike" },
-  { "word": "Abattoir", "type": "Specialized Place", "answer": "A slaughterhouse where animals are processed for food" },
-  { "word": "Bite the bullet", "type": "Idiom", "answer": "Facing a difficult situation with courage" },
-  { "word": "Come up with", "type": "Phrasal Verb", "answer": "To think of an idea or a solution" },
-  { "word": "Lapidary", "type": "Occupation", "answer": "An expert who cuts, polishes, or engraves precious stones and gems" },
-  { "word": "Ossuary", "type": "Specialized Place", "answer": "A room, container, or building serving as a resting place for human skeletal remains" },
-  { "word": "Calligrapher", "type": "Occupation", "answer": "A person who practices the art of beautiful, stylized handwriting" },
-  { "word": "Sanatorium", "type": "Specialized Place", "answer": "A medical facility or retreat for long-term illness recovery and rest" },
-  { "word": "Bark up the wrong tree", "type": "Idiom", "answer": "Pursuing a mistaken line of thought or accusing the wrong person" },
-  { "word": "Look down on", "type": "Phrasal Verb", "answer": "To think of or treat someone as inferior or less important" }
+  {
+    "word": "Taxidermist",
+    "type": "Occupation",
+    "answer": "A person who prepares and stuffs dead animal skins to look lifelike"
+  },
+  {
+    "word": "Abattoir",
+    "type": "Specialized Place",
+    "answer": "A slaughterhouse where animals are processed for food"
+  },
+  {
+    "word": "Bite the bullet",
+    "type": "Idiom",
+    "answer": "Facing a difficult situation with courage"
+  },
+  {
+    "word": "Come up with",
+    "type": "Phrasal Verb",
+    "answer": "To think of an idea or a solution"
+  },
+  {
+    "word": "Lapidary",
+    "type": "Occupation",
+    "answer": "An expert who cuts, polishes, or engraves precious stones and gems"
+  },
+  {
+    "word": "Ossuary",
+    "type": "Specialized Place",
+    "answer": "A room, container, or building serving as a resting place for human skeletal remains"
+  },
+  {
+    "word": "Calligrapher",
+    "type": "Occupation",
+    "answer": "A person who practices the art of beautiful, stylized handwriting"
+  },
+  {
+    "word": "Sanatorium",
+    "type": "Specialized Place",
+    "answer": "A medical facility or retreat for long-term illness recovery and rest"
+  },
+  {
+    "word": "Bark up the wrong tree",
+    "type": "Idiom",
+    "answer": "Pursuing a mistaken line of thought or accusing the wrong person"
+  },
+  {
+    "word": "Look down on",
+    "type": "Phrasal Verb",
+    "answer": "To think of or treat someone as inferior or less important"
+  },
+  {
+    "word": "Cartographer",
+    "type": "Occupation",
+    "answer": "A person who draws or creates maps"
+  },
+  {
+    "word": "Apiary",
+    "type": "Specialized Place",
+    "answer": "A place where bees are kept, usually rows of hives"
+  },
+  {
+    "word": "Costs an arm and a leg",
+    "type": "Idiom",
+    "answer": "Something that is very expensive"
+  },
+  {
+    "word": "Break down",
+    "type": "Phrasal Verb",
+    "answer": "To stop working properly, or to divide something into smaller parts"
+  },
+  {
+    "word": "Falconer",
+    "type": "Occupation",
+    "answer": "A person who trains and hunts with falcons or other birds of prey"
+  },
+  {
+    "word": "Observatory",
+    "type": "Specialized Place",
+    "answer": "A building with telescopes used to study stars, planets, and space"
+  },
+  {
+    "word": "Once in a blue moon",
+    "type": "Idiom",
+    "answer": "Something that happens very rarely"
+  },
+  {
+    "word": "Look forward to",
+    "type": "Phrasal Verb",
+    "answer": "To feel excited about something that is going to happen"
+  },
+  {
+    "word": "Milliner",
+    "type": "Occupation",
+    "answer": "A person who designs and makes hats"
+  },
+  {
+    "word": "Quarry",
+    "type": "Specialized Place",
+    "answer": "A large open pit where stone, sand, or minerals are dug out of the ground"
+  },
+  {
+    "word": "Hit the nail on the head",
+    "type": "Idiom",
+    "answer": "To describe exactly what is causing a situation or problem"
+  },
+  {
+    "word": "Give up",
+    "type": "Phrasal Verb",
+    "answer": "To stop trying to do something"
+  },
+  {
+    "word": "Cooper",
+    "type": "Occupation",
+    "answer": "A person who makes wooden barrels and casks"
+  },
+  {
+    "word": "Foundry",
+    "type": "Specialized Place",
+    "answer": "A factory where metal is melted and cast into shapes"
+  },
+  {
+    "word": "Let the cat out of the bag",
+    "type": "Idiom",
+    "answer": "To reveal a secret by accident"
+  },
+  {
+    "word": "Put off",
+    "type": "Phrasal Verb",
+    "answer": "To delay doing something until a later time"
+  },
+  {
+    "word": "Farrier",
+    "type": "Occupation",
+    "answer": "A person who trims and shoes horses' hooves"
+  },
+  {
+    "word": "Aquarium",
+    "type": "Specialized Place",
+    "answer": "A building or tank where fish and water animals are kept and displayed"
+  },
+  {
+    "word": "Under the weather",
+    "type": "Idiom",
+    "answer": "Feeling slightly ill"
+  },
+  {
+    "word": "Carry on",
+    "type": "Phrasal Verb",
+    "answer": "To continue doing something"
+  },
+  {
+    "word": "Fletcher",
+    "type": "Occupation",
+    "answer": "A person who makes arrows"
+  },
+  {
+    "word": "Planetarium",
+    "type": "Specialized Place",
+    "answer": "A building with a dome used to project images of stars and planets for viewers"
+  },
+  {
+    "word": "Spill the beans",
+    "type": "Idiom",
+    "answer": "To tell people secret information"
+  },
+  {
+    "word": "Turn down",
+    "type": "Phrasal Verb",
+    "answer": "To refuse an offer or request"
+  },
+  {
+    "word": "Cobbler",
+    "type": "Occupation",
+    "answer": "A person who repairs and makes shoes"
+  },
+  {
+    "word": "Silo",
+    "type": "Specialized Place",
+    "answer": "A tall tower or pit used to store grain or animal feed"
+  },
+  {
+    "word": "A piece of cake",
+    "type": "Idiom",
+    "answer": "Something that is very easy to do"
+  },
+  {
+    "word": "Figure out",
+    "type": "Phrasal Verb",
+    "answer": "To understand or solve something after thinking about it"
+  },
+  {
+    "word": "Blacksmith",
+    "type": "Occupation",
+    "answer": "A person who shapes metal, especially iron, by heating and hammering it"
+  },
+  {
+    "word": "Vineyard",
+    "type": "Specialized Place",
+    "answer": "A field of grapevines planted for making wine or juice"
+  },
+  {
+    "word": "Kill two birds with one stone",
+    "type": "Idiom",
+    "answer": "To achieve two things by doing a single action"
+  },
+  {
+    "word": "Hand in",
+    "type": "Phrasal Verb",
+    "answer": "To give a piece of work or document to someone in charge"
+  },
+  {
+    "word": "Chandler",
+    "type": "Occupation",
+    "answer": "A person who makes and sells candles"
+  },
+  {
+    "word": "Arboretum",
+    "type": "Specialized Place",
+    "answer": "A garden where many kinds of trees are grown for study and display"
+  },
+  {
+    "word": "The ball is in your court",
+    "type": "Idiom",
+    "answer": "It is now your turn to take action or make a decision"
+  },
+  {
+    "word": "Take after",
+    "type": "Phrasal Verb",
+    "answer": "To resemble a parent or relative in appearance or behavior"
+  },
+  {
+    "word": "Locksmith",
+    "type": "Occupation",
+    "answer": "A person who makes and repairs locks and keys"
+  },
+  {
+    "word": "Reservoir",
+    "type": "Specialized Place",
+    "answer": "A large natural or artificial lake used to store water for a city or region"
+  },
+  {
+    "word": "Cost a fortune",
+    "type": "Idiom",
+    "answer": "To be extremely expensive"
+  },
+  {
+    "word": "Look into",
+    "type": "Phrasal Verb",
+    "answer": "To investigate or examine something closely"
+  },
+  {
+    "word": "Cartwright",
+    "type": "Occupation",
+    "answer": "A person who builds and repairs wooden carts and wagons"
+  },
+  {
+    "word": "Hangar",
+    "type": "Specialized Place",
+    "answer": "A large building used to store and repair aircraft"
+  },
+  {
+    "word": "Barking mad",
+    "type": "Idiom",
+    "answer": "Completely crazy or very strange"
+  },
+  {
+    "word": "Take off",
+    "type": "Phrasal Verb",
+    "answer": "To remove something, or for a plane to leave the ground"
+  },
+  {
+    "word": "Fishmonger",
+    "type": "Occupation",
+    "answer": "A person who sells fish and seafood"
+  },
+  {
+    "word": "Distillery",
+    "type": "Specialized Place",
+    "answer": "A factory where liquids are purified or alcohol is produced through distillation"
+  },
+  {
+    "word": "Raining cats and dogs",
+    "type": "Idiom",
+    "answer": "Raining very heavily"
+  },
+  {
+    "word": "Set up",
+    "type": "Phrasal Verb",
+    "answer": "To arrange or put something in place for use"
+  },
+  {
+    "word": "Cooperage",
+    "type": "Specialized Place",
+    "answer": "A workshop where wooden barrels and casks are made"
+  },
+  {
+    "word": "Apothecary",
+    "type": "Occupation",
+    "answer": "A person who historically prepared and sold medicines, similar to a pharmacist"
+  },
+  {
+    "word": "Break the ice",
+    "type": "Idiom",
+    "answer": "To do or say something that makes people feel more relaxed"
+  },
+  {
+    "word": "Call off",
+    "type": "Phrasal Verb",
+    "answer": "To cancel a planned event or activity"
+  },
+  {
+    "word": "Beekeeper",
+    "type": "Occupation",
+    "answer": "A person who keeps and manages bees, usually for honey"
+  },
+  {
+    "word": "Greenhouse",
+    "type": "Specialized Place",
+    "answer": "A glass building used for growing plants in a controlled warm environment"
+  },
+  {
+    "word": "Cut corners",
+    "type": "Idiom",
+    "answer": "To do something in the easiest or cheapest way, often lowering quality"
+  },
+  {
+    "word": "Cheer up",
+    "type": "Phrasal Verb",
+    "answer": "To become or make someone happier"
+  },
+  {
+    "word": "Cordwainer",
+    "type": "Occupation",
+    "answer": "A craftsperson who makes new shoes from fresh leather"
+  },
+  {
+    "word": "Granary",
+    "type": "Specialized Place",
+    "answer": "A storehouse or building for keeping threshed grain"
+  },
+  {
+    "word": "Get cold feet",
+    "type": "Idiom",
+    "answer": "To become nervous and lose confidence about doing something"
+  },
+  {
+    "word": "Drop off",
+    "type": "Phrasal Verb",
+    "answer": "To deliver something or someone to a place, or to fall asleep"
+  },
+  {
+    "word": "Ferrier",
+    "type": "Occupation",
+    "answer": "An old term for a person who operates a ferry boat"
+  },
+  {
+    "word": "Smokehouse",
+    "type": "Specialized Place",
+    "answer": "A building where meat or fish is preserved by smoking"
+  },
+  {
+    "word": "Jump on the bandwagon",
+    "type": "Idiom",
+    "answer": "To join others in doing something popular"
+  },
+  {
+    "word": "Fall behind",
+    "type": "Phrasal Verb",
+    "answer": "To fail to keep up with a pace, schedule, or others' progress"
+  },
+  {
+    "word": "Cooperative",
+    "type": "Occupation",
+    "answer": "Not applicable as an occupation; a business owned and run jointly by its members"
+  },
+  {
+    "word": "Tannery",
+    "type": "Specialized Place",
+    "answer": "A factory where animal hides are treated to make leather"
+  },
+  {
+    "word": "Add fuel to the fire",
+    "type": "Idiom",
+    "answer": "To make a bad situation even worse"
+  },
+  {
+    "word": "Fill in",
+    "type": "Phrasal Verb",
+    "answer": "To complete a form, or to temporarily take someone's place"
+  },
+  {
+    "word": "Glazier",
+    "type": "Occupation",
+    "answer": "A person who fits glass into windows and doors"
+  },
+  {
+    "word": "Brewery",
+    "type": "Specialized Place",
+    "answer": "A factory where beer is made"
+  },
+  {
+    "word": "Every cloud has a silver lining",
+    "type": "Idiom",
+    "answer": "There is something good in every bad situation"
+  },
+  {
+    "word": "Get along with",
+    "type": "Phrasal Verb",
+    "answer": "To have a friendly relationship with someone"
+  },
+  {
+    "word": "Thatcher",
+    "type": "Occupation",
+    "answer": "A person who builds roofs using straw or reeds"
+  },
+  {
+    "word": "Mausoleum",
+    "type": "Specialized Place",
+    "answer": "A large, stately building that holds tombs for the dead"
+  },
+  {
+    "word": "Actions speak louder than words",
+    "type": "Idiom",
+    "answer": "What a person does matters more than what they say"
+  },
+  {
+    "word": "Go over",
+    "type": "Phrasal Verb",
+    "answer": "To review or check something carefully"
+  },
+  {
+    "word": "Wheelwright",
+    "type": "Occupation",
+    "answer": "A person who builds and repairs wooden wheels"
+  },
+  {
+    "word": "Refinery",
+    "type": "Specialized Place",
+    "answer": "A factory where raw materials such as oil are purified into usable products"
+  },
+  {
+    "word": "Barking up the wrong tree",
+    "type": "Idiom",
+    "answer": "Following a mistaken line of thought or reasoning"
+  },
+  {
+    "word": "Grow up",
+    "type": "Phrasal Verb",
+    "answer": "To become an adult, or to behave more maturely"
+  },
+  {
+    "word": "Ferrier's apprentice",
+    "type": "Occupation",
+    "answer": "A trainee who assists a person who shoes horses"
+  },
+  {
+    "word": "Shipyard",
+    "type": "Specialized Place",
+    "answer": "A place where ships are built, repaired, or maintained"
+  },
+  {
+    "word": "Beat around the bush",
+    "type": "Idiom",
+    "answer": "To avoid talking directly about a difficult subject"
+  },
+  {
+    "word": "Hold on",
+    "type": "Phrasal Verb",
+    "answer": "To wait for a short time"
+  },
+  {
+    "word": "Stonemason",
+    "type": "Occupation",
+    "answer": "A person who shapes and builds structures using stone"
+  },
+  {
+    "word": "Colosseum",
+    "type": "Specialized Place",
+    "answer": "A large ancient stadium used for public spectacles and events"
+  },
+  {
+    "word": "Curiosity killed the cat",
+    "type": "Idiom",
+    "answer": "Being too curious can get you into trouble"
+  },
+  {
+    "word": "Keep up with",
+    "type": "Phrasal Verb",
+    "answer": "To stay at the same pace or level as someone or something"
+  },
+  {
+    "word": "Ropemaker",
+    "type": "Occupation",
+    "answer": "A person who twists fibers together to make rope"
+  },
+  {
+    "word": "Dockyard",
+    "type": "Specialized Place",
+    "answer": "An area where ships are loaded, unloaded, built, or repaired"
+  },
+  {
+    "word": "Don't count your chickens before they hatch",
+    "type": "Idiom",
+    "answer": "Don't assume something will happen before it actually does"
+  },
+  {
+    "word": "Let down",
+    "type": "Phrasal Verb",
+    "answer": "To disappoint someone by not doing what was expected"
+  },
+  {
+    "word": "Miller",
+    "type": "Occupation",
+    "answer": "A person who grinds grain into flour"
+  },
+  {
+    "word": "Windmill",
+    "type": "Specialized Place",
+    "answer": "A building with sails or blades that use wind power to grind grain or pump water"
+  },
+  {
+    "word": "Every dog has its day",
+    "type": "Idiom",
+    "answer": "Everyone will get a chance for success or good fortune eventually"
+  },
+  {
+    "word": "Bring up",
+    "type": "Phrasal Verb",
+    "answer": "To mention a topic, or to raise a child"
+  },
+  {
+    "word": "Saddler",
+    "type": "Occupation",
+    "answer": "A person who makes saddles and other leather horse equipment"
+  },
+  {
+    "word": "Menagerie",
+    "type": "Specialized Place",
+    "answer": "A collection of wild animals kept in captivity for exhibition"
+  },
+  {
+    "word": "Feel under the weather",
+    "type": "Idiom",
+    "answer": "To feel slightly unwell"
+  },
+  {
+    "word": "Come across",
+    "type": "Phrasal Verb",
+    "answer": "To find something by chance, or to appear a certain way to others"
+  },
+  {
+    "word": "Tinker",
+    "type": "Occupation",
+    "answer": "A person who travels around repairing metal utensils and small items"
+  },
+  {
+    "word": "Almshouse",
+    "type": "Specialized Place",
+    "answer": "A house historically built to provide shelter for poor people"
+  },
+  {
+    "word": "Get the ball rolling",
+    "type": "Idiom",
+    "answer": "To start an activity or process"
+  },
+  {
+    "word": "Speak up",
+    "type": "Phrasal Verb",
+    "answer": "To talk louder, or to express an opinion confidently"
+  },
+  {
+    "word": "Tanner",
+    "type": "Occupation",
+    "answer": "A person whose job is to turn animal hides into leather"
+  },
+  {
+    "word": "Bunker",
+    "type": "Specialized Place",
+    "answer": "An underground shelter built to protect people, often from attacks"
+  },
+  {
+    "word": "It takes two to tango",
+    "type": "Idiom",
+    "answer": "Both people involved share responsibility for a situation"
+  },
+  {
+    "word": "Wear out",
+    "type": "Phrasal Verb",
+    "answer": "To become damaged or useless from too much use"
+  },
+  {
+    "word": "Chimney sweep",
+    "type": "Occupation",
+    "answer": "A person who cleans soot from the inside of chimneys"
+  },
+  {
+    "word": "Catacombs",
+    "type": "Specialized Place",
+    "answer": "Underground tunnels and rooms used as a burial place"
+  },
+  {
+    "word": "Let sleeping dogs lie",
+    "type": "Idiom",
+    "answer": "Avoid restarting an old argument or problem"
+  },
+  {
+    "word": "Sort out",
+    "type": "Phrasal Verb",
+    "answer": "To organize or resolve a problem"
+  },
+  {
+    "word": "Weaver",
+    "type": "Occupation",
+    "answer": "A person who makes cloth by interlacing threads on a loom"
+  },
+  {
+    "word": "Watchtower",
+    "type": "Specialized Place",
+    "answer": "A tall structure used for observing an area, often for defense"
+  },
+  {
+    "word": "Speak of the devil",
+    "type": "Idiom",
+    "answer": "Said when a person who was just being talked about suddenly appears"
+  },
+  {
+    "word": "Show up",
+    "type": "Phrasal Verb",
+    "answer": "To arrive at a place, especially an event"
+  },
+  {
+    "word": "Potter",
+    "type": "Occupation",
+    "answer": "A person who makes pottery, such as bowls and vases, from clay"
+  },
+  {
+    "word": "Lighthouse",
+    "type": "Specialized Place",
+    "answer": "A tower with a bright light used to guide ships safely at sea"
+  },
+  {
+    "word": "The early bird catches the worm",
+    "type": "Idiom",
+    "answer": "People who act early gain an advantage"
+  },
+  {
+    "word": "Hang out",
+    "type": "Phrasal Verb",
+    "answer": "To spend time relaxing with friends"
+  },
+  {
+    "word": "Barber",
+    "type": "Occupation",
+    "answer": "A person who cuts men's hair and shaves beards"
+  },
+  {
+    "word": "Armory",
+    "type": "Specialized Place",
+    "answer": "A building where weapons and military equipment are stored"
+  },
+  {
+    "word": "When pigs fly",
+    "type": "Idiom",
+    "answer": "Something that will never happen"
+  },
+  {
+    "word": "Pass out",
+    "type": "Phrasal Verb",
+    "answer": "To faint, or to distribute items to a group of people"
+  },
+  {
+    "word": "Tailor",
+    "type": "Occupation",
+    "answer": "A person who makes and alters clothes to fit individuals"
+  },
+  {
+    "word": "Citadel",
+    "type": "Specialized Place",
+    "answer": "A fortress built to protect or overlook a city"
+  },
+  {
+    "word": "Cry wolf",
+    "type": "Idiom",
+    "answer": "To raise a false alarm so many times that people stop believing you"
+  },
+  {
+    "word": "Point out",
+    "type": "Phrasal Verb",
+    "answer": "To indicate or draw attention to something"
+  },
+  {
+    "word": "Cooper's apprentice",
+    "type": "Occupation",
+    "answer": "A trainee learning to make wooden barrels and casks"
+  },
+  {
+    "word": "Rampart",
+    "type": "Specialized Place",
+    "answer": "A defensive wall or bank of earth built around a fort or town"
+  },
+  {
+    "word": "Straight from the horse's mouth",
+    "type": "Idiom",
+    "answer": "Information received directly from the most reliable source"
+  },
+  {
+    "word": "Back up",
+    "type": "Phrasal Verb",
+    "answer": "To support someone, or to make a copy of data"
+  },
+  {
+    "word": "Herbalist",
+    "type": "Occupation",
+    "answer": "A person who studies and uses plants for medicinal purposes"
+  },
+  {
+    "word": "Dungeon",
+    "type": "Specialized Place",
+    "answer": "A dark underground prison, often found beneath a castle"
+  },
+  {
+    "word": "Don't put all your eggs in one basket",
+    "type": "Idiom",
+    "answer": "Don't risk everything on a single plan or option"
+  },
+  {
+    "word": "Check out",
+    "type": "Phrasal Verb",
+    "answer": "To examine something, or to leave a hotel after paying the bill"
+  },
+  {
+    "word": "Vintner",
+    "type": "Occupation",
+    "answer": "A person who makes or sells wine"
+  },
+  {
+    "word": "Belfry",
+    "type": "Specialized Place",
+    "answer": "A tower or part of a building that holds bells, usually in a church"
+  },
+  {
+    "word": "A blessing in disguise",
+    "type": "Idiom",
+    "answer": "Something that seems bad at first but turns out to be good"
+  },
+  {
+    "word": "Team up",
+    "type": "Phrasal Verb",
+    "answer": "To join together with someone to do something"
+  },
+  {
+    "word": "Ironmonger",
+    "type": "Occupation",
+    "answer": "A person who sells hardware and metal goods"
+  },
+  {
+    "word": "Cloister",
+    "type": "Specialized Place",
+    "answer": "A covered walkway around an open courtyard, often in a monastery"
+  },
+  {
+    "word": "Burn the midnight oil",
+    "type": "Idiom",
+    "answer": "To work late into the night"
+  },
+  {
+    "word": "Take up",
+    "type": "Phrasal Verb",
+    "answer": "To begin a new hobby, job, or activity"
+  },
+  {
+    "word": "Perfumer",
+    "type": "Occupation",
+    "answer": "A person who creates and blends scents to make perfume"
+  },
+  {
+    "word": "Scriptorium",
+    "type": "Specialized Place",
+    "answer": "A room in a monastery set aside for writing or copying manuscripts"
+  },
+  {
+    "word": "Break a leg",
+    "type": "Idiom",
+    "answer": "A way of wishing someone good luck, especially before a performance"
+  },
+  {
+    "word": "Wind down",
+    "type": "Phrasal Verb",
+    "answer": "To gradually relax or bring an activity to an end"
+  },
+  {
+    "word": "Cooper smith",
+    "type": "Occupation",
+    "answer": "A craftsperson who works with both wood and metal to make barrels and fittings"
+  },
+  {
+    "word": "Conservatory",
+    "type": "Specialized Place",
+    "answer": "A glass room attached to a house, used for plants or as a music school"
+  },
+  {
+    "word": "Cross that bridge when you come to it",
+    "type": "Idiom",
+    "answer": "Deal with a problem only when it actually happens"
+  },
+  {
+    "word": "Deal with",
+    "type": "Phrasal Verb",
+    "answer": "To handle or take care of a problem or situation"
+  },
+  {
+    "word": "Glassblower",
+    "type": "Occupation",
+    "answer": "A person who shapes molten glass by blowing air through a tube"
+  },
+  {
+    "word": "Turret",
+    "type": "Specialized Place",
+    "answer": "A small tower, often on the corner of a castle or building"
+  },
+  {
+    "word": "Don't judge a book by its cover",
+    "type": "Idiom",
+    "answer": "Don't form an opinion about something based only on appearance"
+  },
+  {
+    "word": "Work out",
+    "type": "Phrasal Verb",
+    "answer": "To exercise, or to solve a problem successfully"
+  },
+  {
+    "word": "Cutler",
+    "type": "Occupation",
+    "answer": "A person who makes or sells knives and cutting tools"
+  },
+  {
+    "word": "Aviary",
+    "type": "Specialized Place",
+    "answer": "A large enclosure for keeping birds"
+  },
+  {
+    "word": "Practice makes perfect",
+    "type": "Idiom",
+    "answer": "Repeating an activity improves your skill at it"
+  },
+  {
+    "word": "Catch up",
+    "type": "Phrasal Verb",
+    "answer": "To reach the same point as someone else, or to share recent news"
+  },
+  {
+    "word": "Furrier",
+    "type": "Occupation",
+    "answer": "A person who makes or sells fur clothing"
+  },
+  {
+    "word": "Menhir field",
+    "type": "Specialized Place",
+    "answer": "An open area containing large standing stones from ancient times"
+  },
+  {
+    "word": "The grass is always greener on the other side",
+    "type": "Idiom",
+    "answer": "Other people's situations often seem better than your own"
+  },
+  {
+    "word": "Pull off",
+    "type": "Phrasal Verb",
+    "answer": "To successfully achieve something difficult"
+  },
+  {
+    "word": "Rat catcher",
+    "type": "Occupation",
+    "answer": "A person hired to trap and remove rats, historically from cities"
+  },
+  {
+    "word": "Grotto",
+    "type": "Specialized Place",
+    "answer": "A small, often decorative cave, natural or artificial"
+  },
+  {
+    "word": "Two wrongs don't make a right",
+    "type": "Idiom",
+    "answer": "Responding to a bad action with another bad action doesn't fix anything"
+  },
+  {
+    "word": "Own up",
+    "type": "Phrasal Verb",
+    "answer": "To admit responsibility for something, often a mistake"
+  },
+  {
+    "word": "Dyer",
+    "type": "Occupation",
+    "answer": "A person who colors cloth or fibers using dyes"
+  },
+  {
+    "word": "Amphitheater",
+    "type": "Specialized Place",
+    "answer": "An open, round or oval structure with rising seats used for events"
+  },
+  {
+    "word": "Better late than never",
+    "type": "Idiom",
+    "answer": "It's better to do something late than to not do it at all"
+  },
+  {
+    "word": "Rule out",
+    "type": "Phrasal Verb",
+    "answer": "To decide that something is not possible or not an option"
+  },
+  {
+    "word": "Bookbinder",
+    "type": "Occupation",
+    "answer": "A person who assembles and covers books by hand"
+  },
+  {
+    "word": "Rotunda",
+    "type": "Specialized Place",
+    "answer": "A round building or room, usually topped with a dome"
+  },
+  {
+    "word": "The apple doesn't fall far from the tree",
+    "type": "Idiom",
+    "answer": "Children often resemble their parents in behavior or traits"
+  },
+  {
+    "word": "Zone out",
+    "type": "Phrasal Verb",
+    "answer": "To stop paying attention and let your mind wander"
+  },
+  {
+    "word": "Cooperative farmer",
+    "type": "Occupation",
+    "answer": "A farmer who works as part of a group that shares resources and profits"
+  },
+  {
+    "word": "Menagerie house",
+    "type": "Specialized Place",
+    "answer": "A building used to house a private collection of exotic animals"
+  },
+  {
+    "word": "Don't cry over spilled milk",
+    "type": "Idiom",
+    "answer": "There's no use being upset about something that already happened and can't be changed"
+  },
+  {
+    "word": "Cut back on",
+    "type": "Phrasal Verb",
+    "answer": "To reduce the amount of something, like spending or eating"
+  },
+  {
+    "word": "Cheesemonger",
+    "type": "Occupation",
+    "answer": "A person who sells cheese, especially specialty and artisan types"
+  },
+  {
+    "word": "Catacomb chapel",
+    "type": "Specialized Place",
+    "answer": "A small underground chapel built within burial tunnels"
+  },
+  {
+    "word": "Keep an eye on",
+    "type": "Phrasal Verb",
+    "answer": "To watch or monitor someone or something carefully"
+  },
+  {
+    "word": "The proof is in the pudding",
+    "type": "Idiom",
+    "answer": "The real value of something can only be judged after trying or using it"
+  },
+  {
+    "word": "Cooper's yard",
+    "type": "Specialized Place",
+    "answer": "An outdoor workspace where wooden barrels are made and stored"
+  },
+  {
+    "word": "Falknery",
+    "type": "Specialized Place",
+    "answer": "A place where falcons are trained and kept for hunting"
+  },
+  {
+    "word": "Etymologist",
+    "type": "Occupation",
+    "answer": "A person who studies the origin and history of words"
+  },
+  {
+    "word": "Silo yard",
+    "type": "Specialized Place",
+    "answer": "An outdoor area surrounding grain storage towers on a farm"
+  },
+  {
+    "word": "Actions have consequences",
+    "type": "Idiom",
+    "answer": "Every choice you make will lead to some result, good or bad"
+  },
+  {
+    "word": "Look after",
+    "type": "Phrasal Verb",
+    "answer": "To take care of someone or something"
+  },
+  {
+    "word": "Numismatist",
+    "type": "Occupation",
+    "answer": "A person who studies or collects coins and currency"
+  },
+  {
+    "word": "Mint",
+    "type": "Specialized Place",
+    "answer": "A building where official coins are made"
+  },
+  {
+    "word": "Barking dogs seldom bite",
+    "type": "Idiom",
+    "answer": "People who make loud threats often don't act on them"
+  },
+  {
+    "word": "Chip in",
+    "type": "Phrasal Verb",
+    "answer": "To contribute money or help toward something"
+  },
+  {
+    "word": "Vexillologist",
+    "type": "Occupation",
+    "answer": "A person who studies the history and symbolism of flags"
+  },
+  {
+    "word": "War memorial",
+    "type": "Specialized Place",
+    "answer": "A structure built to honor and remember soldiers who died in war"
+  },
+  {
+    "word": "Bury the hatchet",
+    "type": "Idiom",
+    "answer": "To end a disagreement and make peace"
+  },
+  {
+    "word": "Bail out",
+    "type": "Phrasal Verb",
+    "answer": "To help someone out of a difficult situation, often financially"
+  },
+  {
+    "word": "Philatelist",
+    "type": "Occupation",
+    "answer": "A person who collects and studies postage stamps"
+  },
+  {
+    "word": "Post office sorting depot",
+    "type": "Specialized Place",
+    "answer": "A facility where mail is sorted and organized before delivery"
+  },
+  {
+    "word": "Add insult to injury",
+    "type": "Idiom",
+    "answer": "To make a bad situation worse by saying or doing something hurtful"
+  },
+  {
+    "word": "Boil down to",
+    "type": "Phrasal Verb",
+    "answer": "To be the basic or most important point of a situation"
+  },
+  {
+    "word": "Entomologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies insects"
+  },
+  {
+    "word": "Insectarium",
+    "type": "Specialized Place",
+    "answer": "A building where live insects are kept and displayed for study or viewing"
+  },
+  {
+    "word": "At the drop of a hat",
+    "type": "Idiom",
+    "answer": "Immediately, without any hesitation"
+  },
+  {
+    "word": "Branch out",
+    "type": "Phrasal Verb",
+    "answer": "To expand your activities or interests into new areas"
+  },
+  {
+    "word": "Seismologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies earthquakes and the movement of the Earth's crust"
+  },
+  {
+    "word": "Seismic monitoring station",
+    "type": "Specialized Place",
+    "answer": "A facility equipped with instruments to detect and measure earthquakes"
+  },
+  {
+    "word": "Back to square one",
+    "type": "Idiom",
+    "answer": "Having to start something again from the very beginning"
+  },
+  {
+    "word": "Brush up on",
+    "type": "Phrasal Verb",
+    "answer": "To improve your knowledge or skill in something you learned before"
+  },
+  {
+    "word": "Meteorologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies and forecasts the weather"
+  },
+  {
+    "word": "Weather station",
+    "type": "Specialized Place",
+    "answer": "A facility with instruments for recording and forecasting weather"
+  },
+  {
+    "word": "Barking orders",
+    "type": "Idiom",
+    "answer": "Speaking to people in a loud, commanding, and unfriendly way"
+  },
+  {
+    "word": "Butt in",
+    "type": "Phrasal Verb",
+    "answer": "To interrupt a conversation without being asked"
+  },
+  {
+    "word": "Herpetologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies reptiles and amphibians"
+  },
+  {
+    "word": "Reptile house",
+    "type": "Specialized Place",
+    "answer": "A section of a zoo built to house and display reptiles"
+  },
+  {
+    "word": "Caught red-handed",
+    "type": "Idiom",
+    "answer": "Caught in the act of doing something wrong"
+  },
+  {
+    "word": "Cash in on",
+    "type": "Phrasal Verb",
+    "answer": "To take advantage of a situation to make money or gain benefit"
+  },
+  {
+    "word": "Ornithologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies birds"
+  },
+  {
+    "word": "Bird sanctuary",
+    "type": "Specialized Place",
+    "answer": "A protected area where birds can live and breed safely"
+  },
+  {
+    "word": "Chip off the old block",
+    "type": "Idiom",
+    "answer": "A child who is very similar in character to a parent"
+  },
+  {
+    "word": "Doze off",
+    "type": "Phrasal Verb",
+    "answer": "To fall asleep, usually unintentionally"
+  },
+  {
+    "word": "Volcanologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies volcanoes and volcanic activity"
+  },
+  {
+    "word": "Volcano observatory",
+    "type": "Specialized Place",
+    "answer": "A research station built to monitor volcanic activity"
+  },
+  {
+    "word": "Cold shoulder",
+    "type": "Idiom",
+    "answer": "To ignore or treat someone in an unfriendly way"
+  },
+  {
+    "word": "Ease off",
+    "type": "Phrasal Verb",
+    "answer": "To reduce the intensity or amount of an activity"
+  },
+  {
+    "word": "Glaciologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies glaciers and ice sheets"
+  },
+  {
+    "word": "Ice core research station",
+    "type": "Specialized Place",
+    "answer": "A remote facility where scientists drill and study ancient ice samples"
+  },
+  {
+    "word": "Cross your fingers",
+    "type": "Idiom",
+    "answer": "To hope that something will happen the way you want"
+  },
+  {
+    "word": "Even out",
+    "type": "Phrasal Verb",
+    "answer": "To become balanced or level"
+  },
+  {
+    "word": "Cryptographer",
+    "type": "Occupation",
+    "answer": "A person who creates or breaks secret codes"
+  },
+  {
+    "word": "Code-breaking bunker",
+    "type": "Specialized Place",
+    "answer": "A secure underground facility used to decode secret military messages"
+  },
+  {
+    "word": "Don't bite off more than you can chew",
+    "type": "Idiom",
+    "answer": "Don't try to take on more than you can handle"
+  },
+  {
+    "word": "Face up to",
+    "type": "Phrasal Verb",
+    "answer": "To accept and deal with something difficult"
+  },
+  {
+    "word": "Archivist",
+    "type": "Occupation",
+    "answer": "A person who organizes and preserves historical records and documents"
+  },
+  {
+    "word": "Archive vault",
+    "type": "Specialized Place",
+    "answer": "A secure room where important historical documents are stored"
+  },
+  {
+    "word": "Down to the wire",
+    "type": "Idiom",
+    "answer": "Something not decided until the very last moment"
+  },
+  {
+    "word": "Fall for",
+    "type": "Phrasal Verb",
+    "answer": "To be tricked by something, or to develop strong feelings for someone"
+  },
+  {
+    "word": "Conservator",
+    "type": "Occupation",
+    "answer": "A person who repairs and preserves artworks and artifacts"
+  },
+  {
+    "word": "Restoration studio",
+    "type": "Specialized Place",
+    "answer": "A workshop where damaged art and historical objects are repaired"
+  },
+  {
+    "word": "Draw the line",
+    "type": "Idiom",
+    "answer": "To set a limit on what you are willing to accept or do"
+  },
+  {
+    "word": "Fend off",
+    "type": "Phrasal Verb",
+    "answer": "To defend yourself against an attack or unwanted approach"
+  },
+  {
+    "word": "Taxonomist",
+    "type": "Occupation",
+    "answer": "A scientist who classifies living things into groups"
+  },
+  {
+    "word": "Herbarium",
+    "type": "Specialized Place",
+    "answer": "A collection or building housing preserved plant specimens for study"
+  },
+  {
+    "word": "Elbow grease",
+    "type": "Idiom",
+    "answer": "Hard physical effort or work"
+  },
+  {
+    "word": "Follow through",
+    "type": "Phrasal Verb",
+    "answer": "To complete an action or plan that you started"
+  },
+  {
+    "word": "Ichthyologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies fish"
+  },
+  {
+    "word": "Fish hatchery",
+    "type": "Specialized Place",
+    "answer": "A facility where fish eggs are hatched, especially for farming or restocking"
+  },
+  {
+    "word": "Eat your words",
+    "type": "Idiom",
+    "answer": "To admit that something you said before was wrong"
+  },
+  {
+    "word": "Freak out",
+    "type": "Phrasal Verb",
+    "answer": "To become extremely upset, scared, or excited"
+  },
+  {
+    "word": "Paleontologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies fossils of ancient plants and animals"
+  },
+  {
+    "word": "Fossil dig site",
+    "type": "Specialized Place",
+    "answer": "A location where paleontologists excavate ancient remains from the ground"
+  },
+  {
+    "word": "Face the music",
+    "type": "Idiom",
+    "answer": "To accept the consequences of your actions"
+  },
+  {
+    "word": "Get away with",
+    "type": "Phrasal Verb",
+    "answer": "To do something wrong without being caught or punished"
+  },
+  {
+    "word": "Geologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies rocks and the physical structure of the Earth"
+  },
+  {
+    "word": "Mineral vault",
+    "type": "Specialized Place",
+    "answer": "A secure storage area for valuable rock and mineral specimens"
+  },
+  {
+    "word": "Get out of hand",
+    "type": "Idiom",
+    "answer": "To become difficult to control"
+  },
+  {
+    "word": "Get on with",
+    "type": "Phrasal Verb",
+    "answer": "To continue doing something, or to have a good relationship with someone"
+  },
+  {
+    "word": "Astrobiologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies the possibility of life beyond Earth"
+  },
+  {
+    "word": "Clean room laboratory",
+    "type": "Specialized Place",
+    "answer": "A specially sealed lab kept free of dust to study delicate samples"
+  },
+  {
+    "word": "Go the extra mile",
+    "type": "Idiom",
+    "answer": "To make more effort than is expected"
+  },
+  {
+    "word": "Give away",
+    "type": "Phrasal Verb",
+    "answer": "To give something to someone for free, or to reveal a secret"
+  },
+  {
+    "word": "Oceanographer",
+    "type": "Occupation",
+    "answer": "A scientist who studies the ocean and its life"
+  },
+  {
+    "word": "Marine research vessel",
+    "type": "Specialized Place",
+    "answer": "A ship equipped with labs for studying the ocean and sea life"
+  },
+  {
+    "word": "Have a chip on your shoulder",
+    "type": "Idiom",
+    "answer": "To feel resentful or bitter about something for a long time"
+  },
+  {
+    "word": "Go without",
+    "type": "Phrasal Verb",
+    "answer": "To manage without having something you need or want"
+  },
+  {
+    "word": "Cryptozoologist",
+    "type": "Occupation",
+    "answer": "A person who searches for animals rumored to exist but not proven scientifically"
+  },
+  {
+    "word": "Field research camp",
+    "type": "Specialized Place",
+    "answer": "A temporary outdoor base set up for scientists studying wildlife"
+  },
+  {
+    "word": "Hit the hay",
+    "type": "Idiom",
+    "answer": "To go to bed"
+  },
+  {
+    "word": "Hang around",
+    "type": "Phrasal Verb",
+    "answer": "To stay in or near a place without any particular purpose"
+  },
+  {
+    "word": "Podiatrist",
+    "type": "Occupation",
+    "answer": "A medical professional who treats problems with the feet"
+  },
+  {
+    "word": "Clinic",
+    "type": "Specialized Place",
+    "answer": "A place where people receive medical treatment, usually for minor issues"
+  },
+  {
+    "word": "Hold your horses",
+    "type": "Idiom",
+    "answer": "Wait and be patient"
+  },
+  {
+    "word": "Hold off",
+    "type": "Phrasal Verb",
+    "answer": "To delay doing something"
+  },
+  {
+    "word": "Orthodontist",
+    "type": "Occupation",
+    "answer": "A dentist who specializes in correcting the position of teeth"
+  },
+  {
+    "word": "Dental laboratory",
+    "type": "Specialized Place",
+    "answer": "A workshop where dental devices like braces and crowns are made"
+  },
+  {
+    "word": "In the same boat",
+    "type": "Idiom",
+    "answer": "In the same difficult situation as someone else"
+  },
+  {
+    "word": "Iron out",
+    "type": "Phrasal Verb",
+    "answer": "To resolve small problems or difficulties"
+  },
+  {
+    "word": "Optometrist",
+    "type": "Occupation",
+    "answer": "A professional who examines eyes and prescribes glasses or contact lenses"
+  },
+  {
+    "word": "Optical laboratory",
+    "type": "Specialized Place",
+    "answer": "A facility where eyeglass lenses are ground and fitted"
+  },
+  {
+    "word": "It's not rocket science",
+    "type": "Idiom",
+    "answer": "Something that is not difficult to understand or do"
+  },
+  {
+    "word": "Jot down",
+    "type": "Phrasal Verb",
+    "answer": "To quickly write something down"
+  },
+  {
+    "word": "Radiologist",
+    "type": "Occupation",
+    "answer": "A doctor who uses medical images like X-rays to diagnose illness"
+  },
+  {
+    "word": "Imaging center",
+    "type": "Specialized Place",
+    "answer": "A medical facility that performs scans such as X-rays and MRIs"
+  },
+  {
+    "word": "Keep your chin up",
+    "type": "Idiom",
+    "answer": "To stay cheerful and confident during a difficult time"
+  },
+  {
+    "word": "Knock out",
+    "type": "Phrasal Verb",
+    "answer": "To make someone unconscious, or to defeat someone in a competition"
+  },
+  {
+    "word": "Anesthesiologist",
+    "type": "Occupation",
+    "answer": "A doctor who manages pain relief and puts patients to sleep for surgery"
+  },
+  {
+    "word": "Operating theater",
+    "type": "Specialized Place",
+    "answer": "A special room in a hospital where surgical operations take place"
+  },
+  {
+    "word": "Last straw",
+    "type": "Idiom",
+    "answer": "The final problem in a series that makes a situation unbearable"
+  },
+  {
+    "word": "Lay off",
+    "type": "Phrasal Verb",
+    "answer": "To stop doing something, or to end someone's employment"
+  },
+  {
+    "word": "Pathologist",
+    "type": "Occupation",
+    "answer": "A doctor who studies diseases by examining tissues and cells"
+  },
+  {
+    "word": "Morgue",
+    "type": "Specialized Place",
+    "answer": "A place where dead bodies are kept before burial or examination"
+  },
+  {
+    "word": "Let your hair down",
+    "type": "Idiom",
+    "answer": "To relax and enjoy yourself without worrying"
+  },
+  {
+    "word": "Live up to",
+    "type": "Phrasal Verb",
+    "answer": "To be as good as expected"
+  },
+  {
+    "word": "Sommelier",
+    "type": "Occupation",
+    "answer": "A trained wine expert who advises on and serves wine, usually in restaurants"
+  },
+  {
+    "word": "Wine cellar",
+    "type": "Specialized Place",
+    "answer": "An underground room used to store wine at a cool, steady temperature"
+  },
+  {
+    "word": "Lightbulb moment",
+    "type": "Idiom",
+    "answer": "A sudden moment of understanding or a great idea"
+  },
+  {
+    "word": "Lock in",
+    "type": "Phrasal Verb",
+    "answer": "To secure a deal, price, or plan so it cannot be changed"
+  },
+  {
+    "word": "Pastry chef",
+    "type": "Occupation",
+    "answer": "A cook who specializes in making desserts, cakes, and baked goods"
+  },
+  {
+    "word": "Patisserie",
+    "type": "Specialized Place",
+    "answer": "A shop that specializes in selling pastries and fine baked goods"
+  },
+  {
+    "word": "Make a mountain out of a molehill",
+    "type": "Idiom",
+    "answer": "To make a small problem seem much bigger than it really is"
+  },
+  {
+    "word": "Make up for",
+    "type": "Phrasal Verb",
+    "answer": "To do something good to balance out something bad"
+  },
+  {
+    "word": "Butcher",
+    "type": "Occupation",
+    "answer": "A person who prepares and sells meat"
+  },
+  {
+    "word": "Meat locker",
+    "type": "Specialized Place",
+    "answer": "A cold storage room used to keep meat fresh"
+  },
+  {
+    "word": "Miss the boat",
+    "type": "Idiom",
+    "answer": "To miss an opportunity because you were too slow to act"
+  },
+  {
+    "word": "Mess up",
+    "type": "Phrasal Verb",
+    "answer": "To do something badly or make a mistake"
+  },
+  {
+    "word": "Confectioner",
+    "type": "Occupation",
+    "answer": "A person who makes or sells sweets and candy"
+  },
+  {
+    "word": "Candy factory",
+    "type": "Specialized Place",
+    "answer": "A building where sweets and candies are manufactured"
+  },
+  {
+    "word": "No pain, no gain",
+    "type": "Idiom",
+    "answer": "You must work hard or suffer a little to achieve something good"
+  },
+  {
+    "word": "Move on",
+    "type": "Phrasal Verb",
+    "answer": "To stop thinking about something in the past and go forward"
+  },
+  {
+    "word": "Baker",
+    "type": "Occupation",
+    "answer": "A person who makes bread, cakes, and other baked goods"
+  },
+  {
+    "word": "Bakery",
+    "type": "Specialized Place",
+    "answer": "A shop or building where bread and cakes are baked and sold"
+  },
+  {
+    "word": "On the ball",
+    "type": "Idiom",
+    "answer": "Quick to understand and react to things"
+  },
+  {
+    "word": "Narrow down",
+    "type": "Phrasal Verb",
+    "answer": "To reduce a number of choices to a smaller list"
+  },
+  {
+    "word": "Cheesemaker",
+    "type": "Occupation",
+    "answer": "A person who makes cheese from milk"
+  },
+  {
+    "word": "Creamery",
+    "type": "Specialized Place",
+    "answer": "A place where milk is processed into butter and cheese"
+  },
+  {
+    "word": "On thin ice",
+    "type": "Idiom",
+    "answer": "In a risky situation where something could go wrong"
+  },
+  {
+    "word": "Opt out",
+    "type": "Phrasal Verb",
+    "answer": "To choose not to take part in something"
+  },
+  {
+    "word": "Brewer",
+    "type": "Occupation",
+    "answer": "A person who makes beer"
+  },
+  {
+    "word": "Malt house",
+    "type": "Specialized Place",
+    "answer": "A building where grain is processed into malt for brewing"
+  },
+  {
+    "word": "Out of the blue",
+    "type": "Idiom",
+    "answer": "Something that happens suddenly and unexpectedly"
+  },
+  {
+    "word": "Pass down",
+    "type": "Phrasal Verb",
+    "answer": "To give something, like traditions or belongings, to younger generations"
+  },
+  {
+    "word": "Roaster",
+    "type": "Occupation",
+    "answer": "A person who roasts coffee beans to prepare them for brewing"
+  },
+  {
+    "word": "Coffee roastery",
+    "type": "Specialized Place",
+    "answer": "A facility where raw coffee beans are roasted before sale"
+  },
+  {
+    "word": "Pull someone's leg",
+    "type": "Idiom",
+    "answer": "To joke with or tease someone"
+  },
+  {
+    "word": "Pay off",
+    "type": "Phrasal Verb",
+    "answer": "To be worthwhile, or to fully repay a debt"
+  },
+  {
+    "word": "Miller's apprentice",
+    "type": "Occupation",
+    "answer": "A trainee learning the craft of grinding grain into flour"
+  },
+  {
+    "word": "Flour mill",
+    "type": "Specialized Place",
+    "answer": "A building where grain is ground into flour"
+  },
+  {
+    "word": "Rain on someone's parade",
+    "type": "Idiom",
+    "answer": "To spoil someone's plans or happiness"
+  },
+  {
+    "word": "Rely on",
+    "type": "Phrasal Verb",
+    "answer": "To depend on someone or something"
+  },
+  {
+    "word": "Beekeeping supplier",
+    "type": "Occupation",
+    "answer": "A person who sells equipment and tools used to keep bees"
+  },
+  {
+    "word": "Honey extraction house",
+    "type": "Specialized Place",
+    "answer": "A building where honey is separated and collected from honeycombs"
+  },
+  {
+    "word": "Sit on the fence",
+    "type": "Idiom",
+    "answer": "To avoid making a decision or choosing a side"
+  },
+  {
+    "word": "Run into",
+    "type": "Phrasal Verb",
+    "answer": "To meet someone unexpectedly, or to encounter a problem"
+  },
+  {
+    "word": "Vintner's assistant",
+    "type": "Occupation",
+    "answer": "A person who helps a winemaker during the wine-making process"
+  },
+  {
+    "word": "Fermentation cellar",
+    "type": "Specialized Place",
+    "answer": "A cool underground room where liquids like wine are left to ferment"
+  },
+  {
+    "word": "Steal someone's thunder",
+    "type": "Idiom",
+    "answer": "To take credit for something someone else did, or to take attention away from them"
+  },
+  {
+    "word": "Scale back",
+    "type": "Phrasal Verb",
+    "answer": "To reduce the size or amount of something"
+  },
+  {
+    "word": "Miner",
+    "type": "Occupation",
+    "answer": "A person who digs in the earth to extract coal, minerals, or metals"
+  },
+  {
+    "word": "Mine shaft",
+    "type": "Specialized Place",
+    "answer": "A vertical or sloped tunnel used to access underground mineral deposits"
+  },
+  {
+    "word": "Take the bull by the horns",
+    "type": "Idiom",
+    "answer": "To deal with a difficult situation in a direct and brave way"
+  },
+  {
+    "word": "Stick to",
+    "type": "Phrasal Verb",
+    "answer": "To continue doing something without giving up"
+  },
+  {
+    "word": "Quarryman",
+    "type": "Occupation",
+    "answer": "A person who works cutting and extracting stone from a quarry"
+  },
+  {
+    "word": "Stone yard",
+    "type": "Specialized Place",
+    "answer": "An outdoor area where cut stone is stored before use"
+  },
+  {
+    "word": "The pot calling the kettle black",
+    "type": "Idiom",
+    "answer": "Criticizing someone for a fault that you also have"
+  },
+  {
+    "word": "Sum up",
+    "type": "Phrasal Verb",
+    "answer": "To briefly state the main points of something"
+  },
+  {
+    "word": "Prospector",
+    "type": "Occupation",
+    "answer": "A person who searches land for valuable minerals such as gold"
+  },
+  {
+    "word": "Gold panning camp",
+    "type": "Specialized Place",
+    "answer": "A temporary site where prospectors sift river sediment to find gold"
+  },
+  {
+    "word": "Through thick and thin",
+    "type": "Idiom",
+    "answer": "Staying loyal to someone during both good times and bad"
+  },
+  {
+    "word": "Talk into",
+    "type": "Phrasal Verb",
+    "answer": "To persuade someone to do something"
+  },
+  {
+    "word": "Driller",
+    "type": "Occupation",
+    "answer": "A person who operates machines used to bore holes into the ground"
+  },
+  {
+    "word": "Oil rig",
+    "type": "Specialized Place",
+    "answer": "A large structure used to drill for oil, often located at sea"
+  },
+  {
+    "word": "Time flies when you're having fun",
+    "type": "Idiom",
+    "answer": "Enjoyable moments seem to pass by quickly"
+  },
+  {
+    "word": "Think over",
+    "type": "Phrasal Verb",
+    "answer": "To consider something carefully before deciding"
+  },
+  {
+    "word": "Surveyor",
+    "type": "Occupation",
+    "answer": "A person who measures land to determine boundaries and features"
+  },
+  {
+    "word": "Survey office",
+    "type": "Specialized Place",
+    "answer": "A building where land measurement records and maps are kept"
+  },
+  {
+    "word": "Turn a blind eye",
+    "type": "Idiom",
+    "answer": "To deliberately ignore something wrong that you notice"
+  },
+  {
+    "word": "Tune out",
+    "type": "Phrasal Verb",
+    "answer": "To stop paying attention to something"
+  },
+  {
+    "word": "Geodesist",
+    "type": "Occupation",
+    "answer": "A scientist who measures and monitors the shape and size of the Earth"
+  },
+  {
+    "word": "Geodetic station",
+    "type": "Specialized Place",
+    "answer": "A facility with instruments used to measure Earth's exact shape and position"
+  },
+  {
+    "word": "Two peas in a pod",
+    "type": "Idiom",
+    "answer": "Two people who are very similar or always together"
+  },
+  {
+    "word": "Wake up to",
+    "type": "Phrasal Verb",
+    "answer": "To become aware of a situation"
+  },
+  {
+    "word": "Drone operator",
+    "type": "Occupation",
+    "answer": "A person trained to fly and control unmanned aerial vehicles"
+  },
+  {
+    "word": "Drone testing field",
+    "type": "Specialized Place",
+    "answer": "An open area set aside for safely flying and testing drones"
+  },
+  {
+    "word": "Wolf in sheep's clothing",
+    "type": "Idiom",
+    "answer": "Someone who seems friendly but is actually dangerous or dishonest"
+  },
+  {
+    "word": "Wrap up",
+    "type": "Phrasal Verb",
+    "answer": "To finish or complete something"
+  },
+  {
+    "word": "Air traffic controller",
+    "type": "Occupation",
+    "answer": "A person who directs aircraft to keep them safely spaced apart"
+  },
+  {
+    "word": "Control tower",
+    "type": "Specialized Place",
+    "answer": "A tall structure at an airport where flights are monitored and directed"
+  },
+  {
+    "word": "You can't have your cake and eat it too",
+    "type": "Idiom",
+    "answer": "You can't enjoy two incompatible things at the same time"
+  },
+  {
+    "word": "Zero in on",
+    "type": "Phrasal Verb",
+    "answer": "To focus attention closely on one particular thing"
+  },
+  {
+    "word": "Pilot",
+    "type": "Occupation",
+    "answer": "A person trained to fly and operate an aircraft"
+  },
+  {
+    "word": "Flight simulator lab",
+    "type": "Specialized Place",
+    "answer": "A facility where pilots practice flying in a realistic virtual cockpit"
+  },
+  {
+    "word": "You reap what you sow",
+    "type": "Idiom",
+    "answer": "The results you get depend on the effort or actions you put in"
+  },
+  {
+    "word": "Bounce back",
+    "type": "Phrasal Verb",
+    "answer": "To recover quickly after a difficulty or setback"
+  },
+  {
+    "word": "Astronaut",
+    "type": "Occupation",
+    "answer": "A person trained to travel and work in space"
+  },
+  {
+    "word": "Space training facility",
+    "type": "Specialized Place",
+    "answer": "A center where astronauts practice tasks needed for space missions"
+  },
+  {
+    "word": "Actions louder than promises",
+    "type": "Idiom",
+    "answer": "What someone actually does matters more than what they say they will do"
+  },
+  {
+    "word": "Level off",
+    "type": "Phrasal Verb",
+    "answer": "To become steady after a period of change"
+  },
+  {
+    "word": "Rocket engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs and builds rockets for space travel"
+  },
+  {
+    "word": "Launch pad",
+    "type": "Specialized Place",
+    "answer": "A platform from which rockets and spacecraft are launched"
+  },
+  {
+    "word": "Barking mad idea",
+    "type": "Idiom",
+    "answer": "A plan or thought that seems completely unreasonable"
+  },
+  {
+    "word": "Map out",
+    "type": "Phrasal Verb",
+    "answer": "To plan something carefully in detail"
+  },
+  {
+    "word": "Submarine engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs and maintains underwater vessels"
+  },
+  {
+    "word": "Submarine pen",
+    "type": "Specialized Place",
+    "answer": "A sheltered dock built to protect and repair submarines"
+  },
+  {
+    "word": "Better safe than sorry",
+    "type": "Idiom",
+    "answer": "It's wiser to be cautious than to regret taking a risk later"
+  },
+  {
+    "word": "Mull over",
+    "type": "Phrasal Verb",
+    "answer": "To think about something slowly and carefully"
+  },
+  {
+    "word": "Diver",
+    "type": "Occupation",
+    "answer": "A person trained to swim and work underwater, often using special equipment"
+  },
+  {
+    "word": "Decompression chamber",
+    "type": "Specialized Place",
+    "answer": "A sealed chamber used to safely adjust divers to normal air pressure"
+  },
+  {
+    "word": "Curiosity never killed a cat",
+    "type": "Idiom",
+    "answer": "Being curious and asking questions is usually a good thing, despite the old saying"
+  },
+  {
+    "word": "Fizzle out",
+    "type": "Phrasal Verb",
+    "answer": "To gradually fail or come to a weak end"
+  },
+  {
+    "word": "Puppeteer",
+    "type": "Occupation",
+    "answer": "A person who operates puppets to entertain an audience"
+  },
+  {
+    "word": "Puppet theater",
+    "type": "Specialized Place",
+    "answer": "A small stage designed specifically for puppet shows"
+  },
+  {
+    "word": "All bark and no bite",
+    "type": "Idiom",
+    "answer": "Someone who makes threats but never actually follows through"
+  },
+  {
+    "word": "Sign up for",
+    "type": "Phrasal Verb",
+    "answer": "To officially register to take part in something"
+  },
+  {
+    "word": "Ventriloquist",
+    "type": "Occupation",
+    "answer": "A performer who speaks without moving their lips, often using a puppet"
+  },
+  {
+    "word": "Circus tent",
+    "type": "Specialized Place",
+    "answer": "A large tent used to hold circus performances"
+  },
+  {
+    "word": "All ears",
+    "type": "Idiom",
+    "answer": "Listening very closely and eagerly"
+  },
+  {
+    "word": "Slip up",
+    "type": "Phrasal Verb",
+    "answer": "To make a small mistake"
+  },
+  {
+    "word": "Acrobat",
+    "type": "Occupation",
+    "answer": "A performer skilled in gymnastic feats such as balancing and tumbling"
+  },
+  {
+    "word": "Trapeze rig",
+    "type": "Specialized Place",
+    "answer": "A structure of ropes and bars used for aerial circus acts"
+  },
+  {
+    "word": "All thumbs",
+    "type": "Idiom",
+    "answer": "Clumsy, especially when using your hands"
+  },
+  {
+    "word": "Split up",
+    "type": "Phrasal Verb",
+    "answer": "To separate, either as a group or a couple"
+  },
+  {
+    "word": "Ringmaster",
+    "type": "Occupation",
+    "answer": "A person who directs and announces acts in a circus"
+  },
+  {
+    "word": "Big top",
+    "type": "Specialized Place",
+    "answer": "The main tent of a traveling circus"
+  },
+  {
+    "word": "An arm and a leg",
+    "type": "Idiom",
+    "answer": "A very high price for something"
+  },
+  {
+    "word": "Stem from",
+    "type": "Phrasal Verb",
+    "answer": "To originate or result from something"
+  },
+  {
+    "word": "Clockmaker",
+    "type": "Occupation",
+    "answer": "A person who builds and repairs clocks"
+  },
+  {
+    "word": "Clock tower",
+    "type": "Specialized Place",
+    "answer": "A tall structure built to hold a large public clock"
+  },
+  {
+    "word": "As easy as pie",
+    "type": "Idiom",
+    "answer": "Something that is very simple to do"
+  },
+  {
+    "word": "Stem the tide",
+    "type": "Idiom",
+    "answer": "To stop something from continuing to spread or worsen"
+  },
+  {
+    "word": "Store away",
+    "type": "Phrasal Verb",
+    "answer": "To put something in a safe place for later use"
+  },
+  {
+    "word": "Gunsmith",
+    "type": "Occupation",
+    "answer": "A person who makes or repairs firearms"
+  },
+  {
+    "word": "Shooting range",
+    "type": "Specialized Place",
+    "answer": "A facility built for safely practicing shooting with firearms"
+  },
+  {
+    "word": "As happy as a clam",
+    "type": "Idiom",
+    "answer": "Extremely happy and content"
+  },
+  {
+    "word": "Stir up",
+    "type": "Phrasal Verb",
+    "answer": "To cause trouble or strong feelings"
+  },
+  {
+    "word": "Fireworks technician",
+    "type": "Occupation",
+    "answer": "A person trained to safely prepare and set off fireworks displays"
+  },
+  {
+    "word": "Pyrotechnics bunker",
+    "type": "Specialized Place",
+    "answer": "A secure storage area for explosive fireworks materials"
+  },
+  {
+    "word": "As cool as a cucumber",
+    "type": "Idiom",
+    "answer": "Very calm, especially in a difficult situation"
+  },
+  {
+    "word": "Storm off",
+    "type": "Phrasal Verb",
+    "answer": "To leave a place suddenly because you are angry"
+  },
+  {
+    "word": "Explosives engineer",
+    "type": "Occupation",
+    "answer": "An engineer who safely designs and manages controlled explosions"
+  },
+  {
+    "word": "Demolition site",
+    "type": "Specialized Place",
+    "answer": "An area where buildings or structures are being knocked down"
+  },
+  {
+    "word": "Barking dog never bites",
+    "type": "Idiom",
+    "answer": "A person who threatens loudly rarely actually causes harm"
+  },
+  {
+    "word": "Swear by",
+    "type": "Phrasal Verb",
+    "answer": "To have complete trust and confidence in something"
+  },
+  {
+    "word": "Miner surveyor",
+    "type": "Occupation",
+    "answer": "A specialist who maps and inspects underground mining tunnels"
+  },
+  {
+    "word": "Underground gallery",
+    "type": "Specialized Place",
+    "answer": "A tunnel or passage dug underground, often as part of a mine"
+  },
+  {
+    "word": "At the end of your rope",
+    "type": "Idiom",
+    "answer": "Having no more patience or energy left to deal with something"
+  },
+  {
+    "word": "Take back",
+    "type": "Phrasal Verb",
+    "answer": "To retract a statement, or to return an item to a store"
+  },
+  {
+    "word": "Coal miner",
+    "type": "Occupation",
+    "answer": "A person who works to extract coal from underground mines"
+  },
+  {
+    "word": "Colliery",
+    "type": "Specialized Place",
+    "answer": "A coal mine along with its buildings and equipment"
+  },
+  {
+    "word": "Bad blood",
+    "type": "Idiom",
+    "answer": "Long-lasting feelings of anger or dislike between people"
+  },
+  {
+    "word": "Talk down",
+    "type": "Phrasal Verb",
+    "answer": "To persuade someone not to do something, or to speak to someone as if they are less important"
+  },
+  {
+    "word": "Salt panner",
+    "type": "Occupation",
+    "answer": "A worker who harvests salt from evaporated seawater ponds"
+  },
+  {
+    "word": "Salt flat",
+    "type": "Specialized Place",
+    "answer": "A wide, flat area of land covered in dried salt deposits"
+  },
+  {
+    "word": "Barking up an empty tree",
+    "type": "Idiom",
+    "answer": "Wasting effort on something that will lead nowhere"
+  },
+  {
+    "word": "Tear apart",
+    "type": "Phrasal Verb",
+    "answer": "To criticize something harshly, or to physically rip it into pieces"
+  },
+  {
+    "word": "Ice sculptor",
+    "type": "Occupation",
+    "answer": "An artist who carves detailed designs and figures out of blocks of ice"
+  },
+  {
+    "word": "Ice rink",
+    "type": "Specialized Place",
+    "answer": "A large flat area of ice used for skating or hockey"
+  },
+  {
+    "word": "Beat a dead horse",
+    "type": "Idiom",
+    "answer": "To keep talking about something that is already settled or over"
+  },
+  {
+    "word": "Tie down",
+    "type": "Phrasal Verb",
+    "answer": "To restrict someone's freedom, or to secure an object firmly"
+  },
+  {
+    "word": "Sand sculptor",
+    "type": "Occupation",
+    "answer": "An artist who creates detailed sculptures using compacted sand"
+  },
+  {
+    "word": "Sculpture garden",
+    "type": "Specialized Place",
+    "answer": "An outdoor space designed to display art sculptures"
+  },
+  {
+    "word": "Beggars can't be choosers",
+    "type": "Idiom",
+    "answer": "If you're given something for free, you shouldn't complain about it"
+  },
+  {
+    "word": "Top up",
+    "type": "Phrasal Verb",
+    "answer": "To add more of something to fill it up again"
+  },
+  {
+    "word": "Muralist",
+    "type": "Occupation",
+    "answer": "An artist who paints large pictures directly onto walls or ceilings"
+  },
+  {
+    "word": "Artist's studio",
+    "type": "Specialized Place",
+    "answer": "A room or building where an artist creates their work"
+  },
+  {
+    "word": "Behind closed doors",
+    "type": "Idiom",
+    "answer": "Something done in private and kept secret from others"
+  },
+  {
+    "word": "Touch base with",
+    "type": "Phrasal Verb",
+    "answer": "To briefly contact someone to check in or share information"
+  },
+  {
+    "word": "Fresco painter",
+    "type": "Occupation",
+    "answer": "An artist who paints on wet plaster so the colors become part of the wall"
+  },
+  {
+    "word": "Chapel ceiling",
+    "type": "Specialized Place",
+    "answer": "The upper interior surface of a religious building, often decorated with art"
+  },
+  {
+    "word": "Better the devil you know",
+    "type": "Idiom",
+    "answer": "It's often safer to deal with a familiar problem than an unknown one"
+  },
+  {
+    "word": "Try out",
+    "type": "Phrasal Verb",
+    "answer": "To test something to see if it works or if you like it"
+  },
+  {
+    "word": "Stained glass artist",
+    "type": "Occupation",
+    "answer": "A craftsperson who creates colorful pictures using pieces of colored glass"
+  },
+  {
+    "word": "Glass workshop",
+    "type": "Specialized Place",
+    "answer": "A studio equipped for cutting, shaping, and assembling glass artwork"
+  },
+  {
+    "word": "Birds of a feather flock together",
+    "type": "Idiom",
+    "answer": "People with similar interests tend to spend time together"
+  },
+  {
+    "word": "Tuck away",
+    "type": "Phrasal Verb",
+    "answer": "To hide or store something in a safe, out-of-the-way place"
+  },
+  {
+    "word": "Mosaic artist",
+    "type": "Occupation",
+    "answer": "A craftsperson who creates pictures by arranging small pieces of tile or glass"
+  },
+  {
+    "word": "Tile workshop",
+    "type": "Specialized Place",
+    "answer": "A studio where craftspeople cut and arrange tiles for mosaics"
+  },
+  {
+    "word": "Bite off more than you can chew",
+    "type": "Idiom",
+    "answer": "To take on a task that is too difficult for you"
+  },
+  {
+    "word": "Turn into",
+    "type": "Phrasal Verb",
+    "answer": "To change or develop into something different"
+  },
+  {
+    "word": "Origami artist",
+    "type": "Occupation",
+    "answer": "A person skilled at folding paper into decorative shapes and figures"
+  },
+  {
+    "word": "Paper mill",
+    "type": "Specialized Place",
+    "answer": "A factory where paper is manufactured from wood pulp"
+  },
+  {
+    "word": "Blood is thicker than water",
+    "type": "Idiom",
+    "answer": "Family relationships are usually stronger than other relationships"
+  },
+  {
+    "word": "Wade through",
+    "type": "Phrasal Verb",
+    "answer": "To make slow, difficult progress through a large amount of work"
+  },
+  {
+    "word": "Woodcarver",
+    "type": "Occupation",
+    "answer": "A craftsperson who shapes wood into decorative or useful objects"
+  },
+  {
+    "word": "Timber yard",
+    "type": "Specialized Place",
+    "answer": "A storage area where cut wood is kept before use"
+  },
+  {
+    "word": "Born with a silver spoon in your mouth",
+    "type": "Idiom",
+    "answer": "Born into a wealthy family with many advantages"
+  },
+  {
+    "word": "Warm up to",
+    "type": "Phrasal Verb",
+    "answer": "To gradually start to like someone or something"
+  },
+  {
+    "word": "Sculptor",
+    "type": "Occupation",
+    "answer": "An artist who creates three-dimensional works of art, often from stone or clay"
+  },
+  {
+    "word": "Foundry casting floor",
+    "type": "Specialized Place",
+    "answer": "The area of a foundry where molten metal is poured into molds"
+  },
+  {
+    "word": "Break new ground",
+    "type": "Idiom",
+    "answer": "To do something original that hasn't been done before"
+  },
+  {
+    "word": "Weigh up",
+    "type": "Phrasal Verb",
+    "answer": "To consider the good and bad points of something carefully"
+  },
+  {
+    "word": "Jeweler",
+    "type": "Occupation",
+    "answer": "A person who makes, repairs, or sells jewelry"
+  },
+  {
+    "word": "Jewelry workshop",
+    "type": "Specialized Place",
+    "answer": "A studio equipped with tools for crafting rings, necklaces, and other jewelry"
+  },
+  {
+    "word": "Bring home the bacon",
+    "type": "Idiom",
+    "answer": "To earn money to support your family"
+  },
+  {
+    "word": "Zoom in",
+    "type": "Phrasal Verb",
+    "answer": "To move a camera or lens closer to get a magnified view"
+  },
+  {
+    "word": "Gemologist",
+    "type": "Occupation",
+    "answer": "A scientist trained to identify and evaluate gemstones"
+  },
+  {
+    "word": "Gem cutting workshop",
+    "type": "Specialized Place",
+    "answer": "A studio where raw gemstones are shaped and polished"
+  },
+  {
+    "word": "Burn bridges",
+    "type": "Idiom",
+    "answer": "To destroy a relationship so there's no way to go back to it"
+  },
+  {
+    "word": "Air out",
+    "type": "Phrasal Verb",
+    "answer": "To let fresh air into a room, or to openly discuss a problem"
+  },
+  {
+    "word": "Watchmaker",
+    "type": "Occupation",
+    "answer": "A skilled craftsperson who builds and repairs watches"
+  },
+  {
+    "word": "Watchmaker's workshop",
+    "type": "Specialized Place",
+    "answer": "A small, precise workspace used to assemble and repair tiny watch parts"
+  },
+  {
+    "word": "Burst someone's bubble",
+    "type": "Idiom",
+    "answer": "To spoil someone's excitement by telling them an unpleasant truth"
+  },
+  {
+    "word": "Ask around",
+    "type": "Phrasal Verb",
+    "answer": "To ask several people the same question to gather information"
+  },
+  {
+    "word": "Optician",
+    "type": "Occupation",
+    "answer": "A person who makes and fits glasses and contact lenses"
+  },
+  {
+    "word": "Lens grinding workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where glass or plastic lenses are shaped for glasses"
+  },
+  {
+    "word": "By the skin of your teeth",
+    "type": "Idiom",
+    "answer": "Just barely succeeding at something"
+  },
+  {
+    "word": "Doze through",
+    "type": "Phrasal Verb",
+    "answer": "To sleep lightly through an entire event without waking up"
+  },
+  {
+    "word": "Locomotive engineer",
+    "type": "Occupation",
+    "answer": "A person who operates and drives a train"
+  },
+  {
+    "word": "Railway roundhouse",
+    "type": "Specialized Place",
+    "answer": "A circular building used to store and repair train locomotives"
+  },
+  {
+    "word": "Call it a day",
+    "type": "Idiom",
+    "answer": "To stop doing something for the rest of the day"
+  },
+  {
+    "word": "Barge in",
+    "type": "Phrasal Verb",
+    "answer": "To enter a place suddenly and rudely"
+  },
+  {
+    "word": "Tram conductor",
+    "type": "Occupation",
+    "answer": "A person who collects fares and assists passengers on a tram"
+  },
+  {
+    "word": "Tram depot",
+    "type": "Specialized Place",
+    "answer": "A facility where trams are parked, cleaned, and repaired"
+  },
+  {
+    "word": "Cast the first stone",
+    "type": "Idiom",
+    "answer": "To be the first to criticize someone, especially if you also have faults"
+  },
+  {
+    "word": "Bank on",
+    "type": "Phrasal Verb",
+    "answer": "To rely on something happening"
+  },
+  {
+    "word": "Bus mechanic",
+    "type": "Occupation",
+    "answer": "A person trained to repair and maintain buses"
+  },
+  {
+    "word": "Bus depot",
+    "type": "Specialized Place",
+    "answer": "A facility where buses are parked and serviced between routes"
+  },
+  {
+    "word": "Caught between a rock and a hard place",
+    "type": "Idiom",
+    "answer": "Faced with two equally difficult choices"
+  },
+  {
+    "word": "Bear with",
+    "type": "Phrasal Verb",
+    "answer": "To be patient with someone while they finish something"
+  },
+  {
+    "word": "Toll collector",
+    "type": "Occupation",
+    "answer": "A person who collects payment from vehicles passing through a toll gate"
+  },
+  {
+    "word": "Toll booth",
+    "type": "Specialized Place",
+    "answer": "A small structure where drivers pay a fee to use a road or bridge"
+  },
+  {
+    "word": "Clean slate",
+    "type": "Idiom",
+    "answer": "A fresh start with no past mistakes affecting it"
+  },
+  {
+    "word": "Blow over",
+    "type": "Phrasal Verb",
+    "answer": "For a problem or argument to fade away with time"
+  },
+  {
+    "word": "Crane operator",
+    "type": "Occupation",
+    "answer": "A person trained to safely operate large lifting machinery on construction sites"
+  },
+  {
+    "word": "Construction yard",
+    "type": "Specialized Place",
+    "answer": "A storage area where building materials and machines are kept"
+  },
+  {
+    "word": "Come rain or shine",
+    "type": "Idiom",
+    "answer": "No matter what happens, especially regarding weather"
+  },
+  {
+    "word": "Bottle up",
+    "type": "Phrasal Verb",
+    "answer": "To hold in strong feelings instead of expressing them"
+  },
+  {
+    "word": "Demolition expert",
+    "type": "Occupation",
+    "answer": "A person trained to safely bring down buildings, often using explosives"
+  },
+  {
+    "word": "Wrecking yard",
+    "type": "Specialized Place",
+    "answer": "A place where damaged vehicles or materials are dismantled"
+  },
+  {
+    "word": "Costs peanuts",
+    "type": "Idiom",
+    "answer": "Something that is very cheap"
+  },
+  {
+    "word": "Bounce off",
+    "type": "Phrasal Verb",
+    "answer": "To share ideas with someone to get their reaction or feedback"
+  },
+  {
+    "word": "Scaffolder",
+    "type": "Occupation",
+    "answer": "A worker who builds temporary metal frameworks for construction sites"
+  },
+  {
+    "word": "Building site",
+    "type": "Specialized Place",
+    "answer": "An area of land where a structure is currently being built"
+  },
+  {
+    "word": "Couldn't care less",
+    "type": "Idiom",
+    "answer": "To have absolutely no interest or concern about something"
+  },
+  {
+    "word": "Buckle down",
+    "type": "Phrasal Verb",
+    "answer": "To start working hard and seriously on a task"
+  },
+  {
+    "word": "Roofer",
+    "type": "Occupation",
+    "answer": "A person who builds and repairs roofs"
+  },
+  {
+    "word": "Roofing supply depot",
+    "type": "Specialized Place",
+    "answer": "A warehouse that stores materials used for building and fixing roofs"
+  },
+  {
+    "word": "Cut to the chase",
+    "type": "Idiom",
+    "answer": "To get to the main point without wasting time"
+  },
+  {
+    "word": "Bulk up",
+    "type": "Phrasal Verb",
+    "answer": "To increase in size or strength, often through exercise"
+  },
+  {
+    "word": "Plumber",
+    "type": "Occupation",
+    "answer": "A person who installs and repairs water pipes and fixtures"
+  },
+  {
+    "word": "Plumbing supply warehouse",
+    "type": "Specialized Place",
+    "answer": "A large storage building for pipes and plumbing equipment"
+  },
+  {
+    "word": "Dead as a doornail",
+    "type": "Idiom",
+    "answer": "Completely without life or activity"
+  },
+  {
+    "word": "Burst into",
+    "type": "Phrasal Verb",
+    "answer": "To suddenly start doing something, like crying or laughing"
+  },
+  {
+    "word": "Electrician",
+    "type": "Occupation",
+    "answer": "A person who installs and repairs electrical wiring and systems"
+  },
+  {
+    "word": "Power substation",
+    "type": "Specialized Place",
+    "answer": "A facility that transforms and distributes electricity to homes and businesses"
+  },
+  {
+    "word": "Diamond in the rough",
+    "type": "Idiom",
+    "answer": "Someone or something with great potential that isn't fully polished yet"
+  },
+  {
+    "word": "Bump into",
+    "type": "Phrasal Verb",
+    "answer": "To meet someone unexpectedly"
+  },
+  {
+    "word": "Welder",
+    "type": "Occupation",
+    "answer": "A person who joins metal parts together using intense heat"
+  },
+  {
+    "word": "Welding shop",
+    "type": "Specialized Place",
+    "answer": "A workshop equipped with tools for joining metal pieces together"
+  },
+  {
+    "word": "Doesn't hold water",
+    "type": "Idiom",
+    "answer": "An idea or argument that doesn't make logical sense"
+  },
+  {
+    "word": "Chew over",
+    "type": "Phrasal Verb",
+    "answer": "To think about something carefully before deciding"
+  },
+  {
+    "word": "Machinist",
+    "type": "Occupation",
+    "answer": "A skilled worker who operates machines to shape metal parts"
+  },
+  {
+    "word": "Machine shop",
+    "type": "Specialized Place",
+    "answer": "A workshop where metal parts are cut and shaped using machine tools"
+  },
+  {
+    "word": "Don't beat around the bush",
+    "type": "Idiom",
+    "answer": "Say what you mean directly instead of avoiding the topic"
+  },
+  {
+    "word": "Cool off",
+    "type": "Phrasal Verb",
+    "answer": "To become less hot, or to calm down after being upset"
+  },
+  {
+    "word": "Draftsman",
+    "type": "Occupation",
+    "answer": "A person who creates detailed technical drawings for buildings or machines"
+  },
+  {
+    "word": "Drafting office",
+    "type": "Specialized Place",
+    "answer": "A workplace where technical drawings and building plans are created"
+  },
+  {
+    "word": "Don't look a gift horse in the mouth",
+    "type": "Idiom",
+    "answer": "Don't criticize something that has been given to you for free"
+  },
+  {
+    "word": "Count on",
+    "type": "Phrasal Verb",
+    "answer": "To rely on someone or something"
+  },
+  {
+    "word": "Toolmaker",
+    "type": "Occupation",
+    "answer": "A skilled worker who designs and builds precision tools"
+  },
+  {
+    "word": "Tool and die shop",
+    "type": "Specialized Place",
+    "answer": "A workshop where precise metal tools and molds are manufactured"
+  },
+  {
+    "word": "Don't rock the boat",
+    "type": "Idiom",
+    "answer": "Don't do anything that might upset a stable situation"
+  },
+  {
+    "word": "Crack down on",
+    "type": "Phrasal Verb",
+    "answer": "To take strict action to stop unwanted behavior"
+  },
+  {
+    "word": "Riveter",
+    "type": "Occupation",
+    "answer": "A worker who joins metal plates together using metal fasteners"
+  },
+  {
+    "word": "Shipbuilding hall",
+    "type": "Specialized Place",
+    "answer": "A large covered structure where ship hulls are assembled"
+  },
+  {
+    "word": "Eat humble pie",
+    "type": "Idiom",
+    "answer": "To admit you were wrong and apologize"
+  },
+  {
+    "word": "Cram in",
+    "type": "Phrasal Verb",
+    "answer": "To fit a lot of things into a small space or amount of time"
+  },
+  {
+    "word": "Boilermaker",
+    "type": "Occupation",
+    "answer": "A worker who builds and repairs large metal boilers and tanks"
+  },
+  {
+    "word": "Boiler room",
+    "type": "Specialized Place",
+    "answer": "A room housing large machinery used to heat water or generate steam"
+  },
+  {
+    "word": "Everything but the kitchen sink",
+    "type": "Idiom",
+    "answer": "Almost everything imaginable, included or brought along"
+  },
+  {
+    "word": "Cross out",
+    "type": "Phrasal Verb",
+    "answer": "To draw a line through written text to remove it"
+  },
+  {
+    "word": "Millwright",
+    "type": "Occupation",
+    "answer": "A skilled worker who installs and maintains heavy industrial machinery"
+  },
+  {
+    "word": "Turbine hall",
+    "type": "Specialized Place",
+    "answer": "A large building housing machines that generate electricity"
+  },
+  {
+    "word": "Fall through",
+    "type": "Idiom",
+    "answer": "For a plan to fail to happen as expected"
+  },
+  {
+    "word": "Doze away",
+    "type": "Phrasal Verb",
+    "answer": "To spend time sleeping lightly instead of being active"
+  },
+  {
+    "word": "Elevator technician",
+    "type": "Occupation",
+    "answer": "A person who installs and repairs elevators and escalators"
+  },
+  {
+    "word": "Elevator shaft",
+    "type": "Specialized Place",
+    "answer": "A vertical passage in a building through which an elevator moves"
+  },
+  {
+    "word": "Feast or famine",
+    "type": "Idiom",
+    "answer": "Situations that alternate between having too much and having too little"
+  },
+  {
+    "word": "Draw up",
+    "type": "Phrasal Verb",
+    "answer": "To prepare a document or plan in detail"
+  },
+  {
+    "word": "HVAC technician",
+    "type": "Occupation",
+    "answer": "A worker who installs and repairs heating and cooling systems"
+  },
+  {
+    "word": "Plant room",
+    "type": "Specialized Place",
+    "answer": "A room in a building that houses heating and cooling equipment"
+  },
+  {
+    "word": "Finders keepers",
+    "type": "Idiom",
+    "answer": "Whoever finds something gets to keep it"
+  },
+  {
+    "word": "Duck out",
+    "type": "Phrasal Verb",
+    "answer": "To leave a place quickly and quietly"
+  },
+  {
+    "word": "Solar panel installer",
+    "type": "Occupation",
+    "answer": "A person who fits solar panels onto roofs to generate electricity"
+  },
+  {
+    "word": "Solar farm",
+    "type": "Specialized Place",
+    "answer": "A large outdoor area covered in panels that collect sunlight for energy"
+  },
+  {
+    "word": "First come, first served",
+    "type": "Idiom",
+    "answer": "People are helped or given something in the order that they arrive"
+  },
+  {
+    "word": "Eke out",
+    "type": "Phrasal Verb",
+    "answer": "To make a small or limited supply of something last longer"
+  },
+  {
+    "word": "Wind turbine technician",
+    "type": "Occupation",
+    "answer": "A worker who maintains and repairs large turbines that generate wind power"
+  },
+  {
+    "word": "Wind farm",
+    "type": "Specialized Place",
+    "answer": "A large area with many wind turbines used to generate electricity"
+  },
+  {
+    "word": "Fish out of water",
+    "type": "Idiom",
+    "answer": "Feeling awkward or out of place in an unfamiliar situation"
+  },
+  {
+    "word": "Even out over time",
+    "type": "Idiom",
+    "answer": "For something uneven to become balanced eventually"
+  },
+  {
+    "word": "Flesh out",
+    "type": "Phrasal Verb",
+    "answer": "To add more detail to an idea or plan"
+  },
+  {
+    "word": "Nuclear technician",
+    "type": "Occupation",
+    "answer": "A worker trained to safely operate and monitor nuclear power equipment"
+  },
+  {
+    "word": "Reactor containment building",
+    "type": "Specialized Place",
+    "answer": "A reinforced structure built to safely enclose a nuclear reactor"
+  },
+  {
+    "word": "Flog a dead horse",
+    "type": "Idiom",
+    "answer": "To waste time and effort on something that cannot be changed"
+  },
+  {
+    "word": "Fork out",
+    "type": "Phrasal Verb",
+    "answer": "To pay for something, especially reluctantly"
+  },
+  {
+    "word": "Forensic scientist",
+    "type": "Occupation",
+    "answer": "A scientist who examines evidence to help solve crimes"
+  },
+  {
+    "word": "Forensics laboratory",
+    "type": "Specialized Place",
+    "answer": "A lab where scientists analyze evidence related to crimes"
+  },
+  {
+    "word": "Foot the bill",
+    "type": "Idiom",
+    "answer": "To pay for something, usually an expensive item"
+  },
+  {
+    "word": "Fret over",
+    "type": "Phrasal Verb",
+    "answer": "To worry excessively about something"
+  },
+  {
+    "word": "Detective",
+    "type": "Occupation",
+    "answer": "A person who investigates crimes to find out who committed them"
+  },
+  {
+    "word": "Police precinct",
+    "type": "Specialized Place",
+    "answer": "A local police station responsible for a specific area"
+  },
+  {
+    "word": "Get a taste of your own medicine",
+    "type": "Idiom",
+    "answer": "To experience the same unpleasant treatment you gave to others"
+  },
+  {
+    "word": "Gear up",
+    "type": "Phrasal Verb",
+    "answer": "To prepare for something that is about to happen"
+  },
+  {
+    "word": "Fingerprint analyst",
+    "type": "Occupation",
+    "answer": "A specialist who examines fingerprints to identify people, often in crime investigations"
+  },
+  {
+    "word": "Evidence room",
+    "type": "Specialized Place",
+    "answer": "A secure room in a police station where evidence is stored"
+  },
+  {
+    "word": "Get off on the wrong foot",
+    "type": "Idiom",
+    "answer": "To start a relationship or task badly"
+  },
+  {
+    "word": "Get across",
+    "type": "Phrasal Verb",
+    "answer": "To successfully communicate an idea to someone"
+  },
+  {
+    "word": "Bailiff",
+    "type": "Occupation",
+    "answer": "An officer who keeps order in a courtroom and enforces court orders"
+  },
+  {
+    "word": "Courthouse",
+    "type": "Specialized Place",
+    "answer": "A building where legal trials and hearings take place"
+  },
+  {
+    "word": "Get to the bottom of",
+    "type": "Idiom",
+    "answer": "To find out the real cause or truth of something"
+  },
+  {
+    "word": "Get through",
+    "type": "Phrasal Verb",
+    "answer": "To successfully complete or survive a difficult task or period"
+  },
+  {
+    "word": "Court reporter",
+    "type": "Occupation",
+    "answer": "A person who types a word-for-word record of what is said in court"
+  },
+  {
+    "word": "Jury deliberation room",
+    "type": "Specialized Place",
+    "answer": "A private room where jurors discuss a case before deciding a verdict"
+  },
+  {
+    "word": "Give someone the cold shoulder",
+    "type": "Idiom",
+    "answer": "To deliberately ignore or be unfriendly to someone"
+  },
+  {
+    "word": "Give in",
+    "type": "Phrasal Verb",
+    "answer": "To finally agree to something after refusing at first"
+  },
+  {
+    "word": "Magistrate",
+    "type": "Occupation",
+    "answer": "A judge who decides cases in a lower court"
+  },
+  {
+    "word": "Holding cell",
+    "type": "Specialized Place",
+    "answer": "A small room used to temporarily hold people who have been arrested"
+  },
+  {
+    "word": "Go against the grain",
+    "type": "Idiom",
+    "answer": "To do something different from what is usual or expected"
+  },
+  {
+    "word": "Go about",
+    "type": "Phrasal Verb",
+    "answer": "To begin or continue doing a task in a particular way"
+  },
+  {
+    "word": "Parole officer",
+    "type": "Occupation",
+    "answer": "A person who supervises released prisoners to help them reintegrate safely"
+  },
+  {
+    "word": "Probation office",
+    "type": "Specialized Place",
+    "answer": "An office where people report to a supervisor after release from prison"
+  },
+  {
+    "word": "Go cold turkey",
+    "type": "Idiom",
+    "answer": "To suddenly and completely stop doing something, like a habit"
+  },
+  {
+    "word": "Go down",
+    "type": "Phrasal Verb",
+    "answer": "To decrease, or for something to happen or be recorded as happening"
+  },
+  {
+    "word": "Prison warden",
+    "type": "Occupation",
+    "answer": "The person in charge of running a prison"
+  },
+  {
+    "word": "Cell block",
+    "type": "Specialized Place",
+    "answer": "A section of a prison containing a row of cells"
+  },
+  {
+    "word": "Grasp at straws",
+    "type": "Idiom",
+    "answer": "To try desperately to find a solution when few options remain"
+  },
+  {
+    "word": "Grow apart",
+    "type": "Phrasal Verb",
+    "answer": "To gradually become less close to someone over time"
+  },
+  {
+    "word": "Interpreter",
+    "type": "Occupation",
+    "answer": "A person who translates spoken language from one language to another"
+  },
+  {
+    "word": "Interpretation booth",
+    "type": "Specialized Place",
+    "answer": "A soundproof booth where interpreters translate speech in real time"
+  },
+  {
+    "word": "Hang by a thread",
+    "type": "Idiom",
+    "answer": "To be in a very risky or uncertain situation"
+  },
+  {
+    "word": "Hang on to",
+    "type": "Phrasal Verb",
+    "answer": "To hold or keep something tightly"
+  },
+  {
+    "word": "Diplomat",
+    "type": "Occupation",
+    "answer": "A person who represents their country in relations with other nations"
+  },
+  {
+    "word": "Embassy",
+    "type": "Specialized Place",
+    "answer": "A building where diplomats represent their country in a foreign nation"
+  },
+  {
+    "word": "Have a bone to pick",
+    "type": "Idiom",
+    "answer": "To have a complaint you want to discuss with someone"
+  },
+  {
+    "word": "Head off",
+    "type": "Phrasal Verb",
+    "answer": "To leave for a destination, or to prevent something from happening"
+  },
+  {
+    "word": "Ambassador",
+    "type": "Occupation",
+    "answer": "The highest-ranking official who represents their country abroad"
+  },
+  {
+    "word": "Consulate",
+    "type": "Specialized Place",
+    "answer": "An office that helps citizens of a country while they are abroad"
+  },
+  {
+    "word": "Have your head in the clouds",
+    "type": "Idiom",
+    "answer": "To be daydreaming and not paying attention to reality"
+  },
+  {
+    "word": "Hit back",
+    "type": "Phrasal Verb",
+    "answer": "To respond strongly to criticism or an attack"
+  },
+  {
+    "word": "Customs officer",
+    "type": "Occupation",
+    "answer": "An official who checks goods and travelers entering or leaving a country"
+  },
+  {
+    "word": "Customs checkpoint",
+    "type": "Specialized Place",
+    "answer": "A border station where travelers and goods are inspected"
+  },
+  {
+    "word": "Head over heels",
+    "type": "Idiom",
+    "answer": "Completely and deeply in love"
+  },
+  {
+    "word": "Hold back",
+    "type": "Phrasal Verb",
+    "answer": "To stop yourself from doing or saying something"
+  },
+  {
+    "word": "Immigration officer",
+    "type": "Occupation",
+    "answer": "An official who checks people entering a country to ensure they can legally enter"
+  },
+  {
+    "word": "Immigration hall",
+    "type": "Specialized Place",
+    "answer": "An area at an airport or border where travelers' documents are checked"
+  },
+  {
+    "word": "Hit the ground running",
+    "type": "Idiom",
+    "answer": "To start something quickly and energetically"
+  },
+  {
+    "word": "Hold up",
+    "type": "Phrasal Verb",
+    "answer": "To delay something, or to remain strong under pressure"
+  },
+  {
+    "word": "Air traffic engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs and maintains systems used to manage air traffic"
+  },
+  {
+    "word": "Radar station",
+    "type": "Specialized Place",
+    "answer": "A facility equipped with equipment to detect aircraft and ships"
+  },
+  {
+    "word": "Home free",
+    "type": "Idiom",
+    "answer": "Safe or certain to succeed after overcoming difficulty"
+  },
+  {
+    "word": "Hook up",
+    "type": "Phrasal Verb",
+    "answer": "To connect equipment together, or to meet up with someone"
+  },
+  {
+    "word": "Baggage handler",
+    "type": "Occupation",
+    "answer": "A person who loads and unloads luggage from airplanes"
+  },
+  {
+    "word": "Baggage claim area",
+    "type": "Specialized Place",
+    "answer": "The section of an airport where passengers collect their luggage"
+  },
+  {
+    "word": "In a nutshell",
+    "type": "Idiom",
+    "answer": "Summarized briefly and simply"
+  },
+  {
+    "word": "Iron out the details",
+    "type": "Idiom",
+    "answer": "To resolve the remaining small problems in a plan"
+  },
+  {
+    "word": "Jazz up",
+    "type": "Phrasal Verb",
+    "answer": "To make something more interesting or exciting"
+  },
+  {
+    "word": "Flight attendant",
+    "type": "Occupation",
+    "answer": "A person who ensures passenger safety and comfort during a flight"
+  },
+  {
+    "word": "Cabin crew rest area",
+    "type": "Specialized Place",
+    "answer": "A private space on an aircraft where crew members can rest"
+  },
+  {
+    "word": "In hot water",
+    "type": "Idiom",
+    "answer": "In trouble because of something you did"
+  },
+  {
+    "word": "Join forces",
+    "type": "Idiom",
+    "answer": "To work together with someone toward a common goal"
+  },
+  {
+    "word": "Kick off",
+    "type": "Phrasal Verb",
+    "answer": "To begin an event or activity"
+  },
+  {
+    "word": "Ground crew technician",
+    "type": "Occupation",
+    "answer": "A worker who maintains and prepares aircraft before and after flights"
+  },
+  {
+    "word": "Aircraft maintenance hangar",
+    "type": "Specialized Place",
+    "answer": "A large building where planes are inspected and repaired"
+  },
+  {
+    "word": "In the driver's seat",
+    "type": "Idiom",
+    "answer": "Being in control of a situation"
+  },
+  {
+    "word": "Knuckle down",
+    "type": "Phrasal Verb",
+    "answer": "To start working hard and with focus"
+  },
+  {
+    "word": "Aeronautical engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs aircraft and their systems"
+  },
+  {
+    "word": "Wind tunnel",
+    "type": "Specialized Place",
+    "answer": "A facility used to test how air flows around vehicles like planes"
+  },
+  {
+    "word": "In the nick of time",
+    "type": "Idiom",
+    "answer": "Just in time, at the last possible moment"
+  },
+  {
+    "word": "Lash out",
+    "type": "Phrasal Verb",
+    "answer": "To suddenly attack someone physically or with angry words"
+  },
+  {
+    "word": "Test pilot",
+    "type": "Occupation",
+    "answer": "A pilot who flies new aircraft to check they are safe and working correctly"
+  },
+  {
+    "word": "Airfield",
+    "type": "Specialized Place",
+    "answer": "An open area of land used for aircraft to take off and land"
+  },
+  {
+    "word": "It's a small world",
+    "type": "Idiom",
+    "answer": "Said when you unexpectedly meet someone you know in an unlikely place"
+  },
+  {
+    "word": "Leave out",
+    "type": "Phrasal Verb",
+    "answer": "To not include something or someone"
+  },
+  {
+    "word": "Aircraft mechanic",
+    "type": "Occupation",
+    "answer": "A worker who repairs and services airplane engines and parts"
+  },
+  {
+    "word": "Repair bay",
+    "type": "Specialized Place",
+    "answer": "A section of a garage or hangar dedicated to fixing vehicles"
+  },
+  {
+    "word": "Jump the gun",
+    "type": "Idiom",
+    "answer": "To start something too early, before it's the right time"
+  },
+  {
+    "word": "Level with",
+    "type": "Phrasal Verb",
+    "answer": "To be completely honest with someone"
+  },
+  {
+    "word": "Locomotive fireman",
+    "type": "Occupation",
+    "answer": "A worker who historically fed fuel into a steam train's furnace"
+  },
+  {
+    "word": "Engine shed",
+    "type": "Specialized Place",
+    "answer": "A building used to store and maintain train engines"
+  },
+  {
+    "word": "Keep a straight face",
+    "type": "Idiom",
+    "answer": "To avoid smiling or laughing even when something is funny"
+  },
+  {
+    "word": "Line up",
+    "type": "Phrasal Verb",
+    "answer": "To arrange things or people in a row, or to organize an event"
+  },
+  {
+    "word": "Signalman",
+    "type": "Occupation",
+    "answer": "A railway worker who controls train signals to keep trains running safely"
+  },
+  {
+    "word": "Signal box",
+    "type": "Specialized Place",
+    "answer": "A small building where railway signals and track switches are controlled"
+  },
+  {
+    "word": "Kick the bucket",
+    "type": "Idiom",
+    "answer": "A casual way of saying that someone died"
+  },
+  {
+    "word": "Live down",
+    "type": "Phrasal Verb",
+    "answer": "To eventually make people forget an embarrassing thing you did"
+  },
+  {
+    "word": "Track inspector",
+    "type": "Occupation",
+    "answer": "A worker who checks railway tracks for safety and damage"
+  },
+  {
+    "word": "Railway yard",
+    "type": "Specialized Place",
+    "answer": "An area with multiple tracks used for storing and sorting train cars"
+  },
+  {
+    "word": "Kill time",
+    "type": "Idiom",
+    "answer": "To do something to pass time while waiting"
+  },
+  {
+    "word": "Lock up",
+    "type": "Phrasal Verb",
+    "answer": "To secure a building by locking all its doors"
+  },
+  {
+    "word": "Ferry captain",
+    "type": "Occupation",
+    "answer": "A person who commands a boat that carries passengers across water"
+  },
+  {
+    "word": "Ferry terminal",
+    "type": "Specialized Place",
+    "answer": "A building where passengers board and exit ferry boats"
+  },
+  {
+    "word": "Know the ropes",
+    "type": "Idiom",
+    "answer": "To understand how to do a task because of experience"
+  },
+  {
+    "word": "Long shot",
+    "type": "Idiom",
+    "answer": "Something unlikely to succeed but worth attempting"
+  },
+  {
+    "word": "Look back on",
+    "type": "Phrasal Verb",
+    "answer": "To think about something that happened in the past"
+  },
+  {
+    "word": "Harbor master",
+    "type": "Occupation",
+    "answer": "An official responsible for managing activity in a port or harbor"
+  },
+  {
+    "word": "Harbor",
+    "type": "Specialized Place",
+    "answer": "A sheltered area of water where boats and ships can dock safely"
+  },
+  {
+    "word": "Larger than life",
+    "type": "Idiom",
+    "answer": "Someone with an exciting, bold, and impressive personality"
+  },
+  {
+    "word": "Look up to",
+    "type": "Phrasal Verb",
+    "answer": "To admire and respect someone"
+  },
+  {
+    "word": "Lighthouse keeper",
+    "type": "Occupation",
+    "answer": "A person who historically maintained and operated a lighthouse"
+  },
+  {
+    "word": "Coast guard station",
+    "type": "Specialized Place",
+    "answer": "A base where officials monitor and protect a coastline"
+  },
+  {
+    "word": "Last but not least",
+    "type": "Idiom",
+    "answer": "The final item mentioned, which is still important"
+  },
+  {
+    "word": "Mess around",
+    "type": "Phrasal Verb",
+    "answer": "To spend time doing silly or unimportant things"
+  },
+  {
+    "word": "Marine biologist",
+    "type": "Occupation",
+    "answer": "A scientist who studies ocean life and ecosystems"
+  },
+  {
+    "word": "Marine research station",
+    "type": "Specialized Place",
+    "answer": "A facility located near the coast for studying ocean life"
+  },
+  {
+    "word": "Let bygones be bygones",
+    "type": "Idiom",
+    "answer": "To forget past disagreements and move forward peacefully"
+  },
+  {
+    "word": "Muster up",
+    "type": "Phrasal Verb",
+    "answer": "To gather enough courage or strength to do something"
+  },
+  {
+    "word": "Coral reef scientist",
+    "type": "Occupation",
+    "answer": "A researcher who studies coral reefs and the creatures that live there"
+  },
+  {
+    "word": "Coral nursery",
+    "type": "Specialized Place",
+    "answer": "An underwater facility where new coral is grown to restore reefs"
+  },
+  {
+    "word": "Lightning never strikes twice",
+    "type": "Idiom",
+    "answer": "The same unlikely event rarely happens to the same person twice"
+  },
+  {
+    "word": "Nod off",
+    "type": "Phrasal Verb",
+    "answer": "To fall asleep, usually without meaning to"
+  },
+  {
+    "word": "Whale researcher",
+    "type": "Occupation",
+    "answer": "A scientist who studies whales and their behavior in the ocean"
+  },
+  {
+    "word": "Whale watching station",
+    "type": "Specialized Place",
+    "answer": "A coastal location set up for observing whales in the wild"
+  },
+  {
+    "word": "Loose cannon",
+    "type": "Idiom",
+    "answer": "A person who behaves unpredictably and could cause problems"
+  },
+  {
+    "word": "Opt for",
+    "type": "Phrasal Verb",
+    "answer": "To choose one option among several"
+  },
+  {
+    "word": "Deep sea diver",
+    "type": "Occupation",
+    "answer": "A diver trained to explore very deep parts of the ocean"
+  },
+  {
+    "word": "Submersible dock",
+    "type": "Specialized Place",
+    "answer": "A facility used to launch and recover small underwater research vehicles"
+  },
+  {
+    "word": "Make ends meet",
+    "type": "Idiom",
+    "answer": "To have just enough money to cover basic living expenses"
+  },
+  {
+    "word": "Order around",
+    "type": "Phrasal Verb",
+    "answer": "To repeatedly tell someone what to do in a bossy way"
+  },
+  {
+    "word": "Marine engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs and maintains ships and their machinery"
+  },
+  {
+    "word": "Dry dock",
+    "type": "Specialized Place",
+    "answer": "A structure used to hold a ship out of water for repairs"
+  },
+  {
+    "word": "Make waves",
+    "type": "Idiom",
+    "answer": "To cause a stir or attract a lot of attention"
+  },
+  {
+    "word": "Own up to",
+    "type": "Phrasal Verb",
+    "answer": "To admit that you did something wrong"
+  },
+  {
+    "word": "Naval architect",
+    "type": "Occupation",
+    "answer": "A person who designs ships and other watercraft"
+  },
+  {
+    "word": "Ship design office",
+    "type": "Specialized Place",
+    "answer": "An office where engineers plan and design new vessels"
+  },
+  {
+    "word": "Method to the madness",
+    "type": "Idiom",
+    "answer": "A hidden logic or purpose behind behavior that seems strange"
+  },
+  {
+    "word": "Pass by",
+    "type": "Phrasal Verb",
+    "answer": "To go past a place or person without stopping"
+  },
+  {
+    "word": "Submariner",
+    "type": "Occupation",
+    "answer": "A member of the navy who serves on a submarine"
+  },
+  {
+    "word": "Naval base",
+    "type": "Specialized Place",
+    "answer": "A military facility where naval ships and personnel are stationed"
+  },
+  {
+    "word": "Miss the mark",
+    "type": "Idiom",
+    "answer": "To fail to achieve the intended result"
+  },
+  {
+    "word": "Patch up",
+    "type": "Phrasal Verb",
+    "answer": "To repair something, or to resolve a disagreement"
+  },
+  {
+    "word": "Sonar technician",
+    "type": "Occupation",
+    "answer": "A specialist who operates equipment that detects objects underwater using sound"
+  },
+  {
+    "word": "Sonar control room",
+    "type": "Specialized Place",
+    "answer": "A room on a ship equipped with underwater sound-detection equipment"
+  },
+  {
+    "word": "Music to my ears",
+    "type": "Idiom",
+    "answer": "News or information that makes you very happy to hear"
+  },
+  {
+    "word": "Peel off",
+    "type": "Phrasal Verb",
+    "answer": "To remove a layer from something, or to leave a group one by one"
+  },
+  {
+    "word": "Deckhand",
+    "type": "Occupation",
+    "answer": "A worker who performs manual tasks on the deck of a ship"
+  },
+  {
+    "word": "Ship's galley",
+    "type": "Specialized Place",
+    "answer": "The kitchen area on board a ship where meals are prepared"
+  },
+  {
+    "word": "Never a dull moment",
+    "type": "Idiom",
+    "answer": "Something is always happening; it's never boring"
+  },
+  {
+    "word": "Pick up on",
+    "type": "Phrasal Verb",
+    "answer": "To notice something subtle, like a hint or feeling"
+  },
+  {
+    "word": "Anchor operator",
+    "type": "Occupation",
+    "answer": "A crew member responsible for lowering and raising a ship's anchor"
+  },
+  {
+    "word": "Anchorage",
+    "type": "Specialized Place",
+    "answer": "An area of water where ships can safely drop anchor"
+  },
+  {
+    "word": "No news is good news",
+    "type": "Idiom",
+    "answer": "If you haven't heard anything, it probably means everything is fine"
+  },
+  {
+    "word": "Piece together",
+    "type": "Phrasal Verb",
+    "answer": "To combine bits of information to understand a full picture"
+  },
+  {
+    "word": "Marine navigator",
+    "type": "Occupation",
+    "answer": "A crew member responsible for planning and guiding a ship's route"
+  },
+  {
+    "word": "Chart room",
+    "type": "Specialized Place",
+    "answer": "A room on a ship used to store maps and plan navigation"
+  },
+  {
+    "word": "Not my cup of tea",
+    "type": "Idiom",
+    "answer": "Something that you don't particularly enjoy or like"
+  },
+  {
+    "word": "Play down",
+    "type": "Phrasal Verb",
+    "answer": "To make something seem less important than it actually is"
+  },
+  {
+    "word": "Lifeboat operator",
+    "type": "Occupation",
+    "answer": "A trained person who operates rescue boats to save people at sea"
+  },
+  {
+    "word": "Lifeboat station",
+    "type": "Specialized Place",
+    "answer": "A coastal building where rescue boats are stored and launched"
+  },
+  {
+    "word": "Off the beaten path",
+    "type": "Idiom",
+    "answer": "In an unusual or less commonly visited place"
+  },
+  {
+    "word": "Play up",
+    "type": "Phrasal Verb",
+    "answer": "To emphasize something, or to misbehave"
+  },
+  {
+    "word": "Coastal ranger",
+    "type": "Occupation",
+    "answer": "A worker who patrols and protects beaches and coastal wildlife"
+  },
+  {
+    "word": "Ranger station",
+    "type": "Specialized Place",
+    "answer": "A small building used as a base by park or coastal rangers"
+  },
+  {
+    "word": "Off the hook",
+    "type": "Idiom",
+    "answer": "No longer responsible for or blamed for something"
+  },
+  {
+    "word": "Plow through",
+    "type": "Phrasal Verb",
+    "answer": "To work steadily through a large or difficult task"
+  },
+  {
+    "word": "Park ranger",
+    "type": "Occupation",
+    "answer": "A person who protects and manages a national or state park"
+  },
+  {
+    "word": "Ranger outpost",
+    "type": "Specialized Place",
+    "answer": "A remote small station used by rangers to monitor a wilderness area"
+  },
+  {
+    "word": "Once bitten, twice shy",
+    "type": "Idiom",
+    "answer": "After a bad experience, a person becomes more cautious in the future"
+  },
+  {
+    "word": "Pop up",
+    "type": "Phrasal Verb",
+    "answer": "To appear suddenly or unexpectedly"
+  },
+  {
+    "word": "Wildlife conservationist",
+    "type": "Occupation",
+    "answer": "A person who works to protect animals and their habitats"
+  },
+  {
+    "word": "Wildlife rehabilitation center",
+    "type": "Specialized Place",
+    "answer": "A facility that cares for and heals injured or orphaned wild animals"
+  },
+  {
+    "word": "One in a million",
+    "type": "Idiom",
+    "answer": "Someone or something extremely rare and special"
+  },
+  {
+    "word": "Press on",
+    "type": "Phrasal Verb",
+    "answer": "To continue doing something despite difficulty"
+  },
+  {
+    "word": "Zookeeper",
+    "type": "Occupation",
+    "answer": "A person who cares for and feeds animals at a zoo"
+  },
+  {
+    "word": "Zoo enclosure",
+    "type": "Specialized Place",
+    "answer": "A fenced or walled area where a zoo animal lives"
+  },
+  {
+    "word": "Out of the frying pan and into the fire",
+    "type": "Idiom",
+    "answer": "Going from a bad situation to an even worse one"
+  },
+  {
+    "word": "Psych out",
+    "type": "Phrasal Verb",
+    "answer": "To intimidate someone or make them lose confidence"
+  },
+  {
+    "word": "Wildlife veterinarian",
+    "type": "Occupation",
+    "answer": "A vet who specializes in treating wild and exotic animals"
+  },
+  {
+    "word": "Veterinary clinic",
+    "type": "Specialized Place",
+    "answer": "A medical facility where sick or injured animals are treated"
+  },
+  {
+    "word": "Out of the woods",
+    "type": "Idiom",
+    "answer": "No longer in danger or facing a difficult situation"
+  },
+  {
+    "word": "Pull through",
+    "type": "Phrasal Verb",
+    "answer": "To recover from a serious illness or difficult situation"
+  },
+  {
+    "word": "Dog trainer",
+    "type": "Occupation",
+    "answer": "A person who teaches dogs obedience and specific skills"
+  },
+  {
+    "word": "Dog training school",
+    "type": "Specialized Place",
+    "answer": "A facility where dogs are taught obedience and specialized skills"
+  },
+  {
+    "word": "Over the moon",
+    "type": "Idiom",
+    "answer": "Extremely happy and delighted about something"
+  },
+  {
+    "word": "Push through",
+    "type": "Phrasal Verb",
+    "answer": "To succeed in getting something approved or completed despite obstacles"
+  },
+  {
+    "word": "Horse trainer",
+    "type": "Occupation",
+    "answer": "A person who teaches horses to be ridden or to perform tasks"
+  },
+  {
+    "word": "Riding stable",
+    "type": "Specialized Place",
+    "answer": "A facility where horses are kept, trained, and ridden"
+  },
+  {
+    "word": "Piece of the puzzle",
+    "type": "Idiom",
+    "answer": "One part of information needed to understand a whole situation"
+  },
+  {
+    "word": "Rake in",
+    "type": "Phrasal Verb",
+    "answer": "To earn a large amount of money"
+  },
+  {
+    "word": "Jockey",
+    "type": "Occupation",
+    "answer": "A professional rider who races horses"
+  },
+  {
+    "word": "Racetrack",
+    "type": "Specialized Place",
+    "answer": "A track designed for racing horses or vehicles"
+  },
+  {
+    "word": "Play it by ear",
+    "type": "Idiom",
+    "answer": "To decide how to act as a situation develops, without a fixed plan"
+  },
+  {
+    "word": "Rat out",
+    "type": "Phrasal Verb",
+    "answer": "To inform on someone, revealing something they did wrong"
+  },
+  {
+    "word": "Groomer",
+    "type": "Occupation",
+    "answer": "A person who washes, trims, and cares for the appearance of animals"
+  },
+  {
+    "word": "Grooming salon",
+    "type": "Specialized Place",
+    "answer": "A shop where pets are washed, brushed, and trimmed"
+  },
+  {
+    "word": "Put a sock in it",
+    "type": "Idiom",
+    "answer": "A blunt way of telling someone to stop talking"
+  },
+  {
+    "word": "Reel in",
+    "type": "Phrasal Verb",
+    "answer": "To pull something in using a line, or to attract someone's interest"
+  },
+  {
+    "word": "Pet sitter",
+    "type": "Occupation",
+    "answer": "A person who cares for someone else's pets while they are away"
+  },
+  {
+    "word": "Pet boarding facility",
+    "type": "Specialized Place",
+    "answer": "A place where pets stay temporarily while their owners are away"
+  },
+  {
+    "word": "Put the cart before the horse",
+    "type": "Idiom",
+    "answer": "To do things in the wrong order"
+  },
+  {
+    "word": "Rope in",
+    "type": "Phrasal Verb",
+    "answer": "To persuade someone to take part in an activity"
+  },
+  {
+    "word": "Aquarist",
+    "type": "Occupation",
+    "answer": "A person who cares for fish and other creatures in an aquarium"
+  },
+  {
+    "word": "Fish tank room",
+    "type": "Specialized Place",
+    "answer": "A room housing large tanks for keeping and displaying fish"
+  },
+  {
+    "word": "Rain check",
+    "type": "Idiom",
+    "answer": "A polite way to postpone an invitation until a later time"
+  },
+  {
+    "word": "Rustle up",
+    "type": "Phrasal Verb",
+    "answer": "To quickly prepare or find something, often food"
+  },
+  {
+    "word": "Farmhand",
+    "type": "Occupation",
+    "answer": "A worker who helps with general tasks on a farm"
+  },
+  {
+    "word": "Barn",
+    "type": "Specialized Place",
+    "answer": "A farm building used to store crops or shelter animals"
+  },
+  {
+    "word": "Read between the lines",
+    "type": "Idiom",
+    "answer": "To understand a hidden meaning that isn't directly stated"
+  },
+  {
+    "word": "Save up",
+    "type": "Phrasal Verb",
+    "answer": "To keep money aside over time for future use"
+  },
+  {
+    "word": "Shepherd",
+    "type": "Occupation",
+    "answer": "A person who takes care of and herds sheep"
+  },
+  {
+    "word": "Sheep pen",
+    "type": "Specialized Place",
+    "answer": "A fenced area used to keep sheep together safely"
+  },
+  {
+    "word": "Ring a bell",
+    "type": "Idiom",
+    "answer": "To sound familiar, as if you've heard it before"
+  },
+  {
+    "word": "Scrape by",
+    "type": "Phrasal Verb",
+    "answer": "To just barely manage to survive or succeed with limited resources"
+  },
+  {
+    "word": "Dairy farmer",
+    "type": "Occupation",
+    "answer": "A farmer who raises cows for milk production"
+  },
+  {
+    "word": "Milking parlor",
+    "type": "Specialized Place",
+    "answer": "A specialized area on a dairy farm where cows are milked"
+  },
+  {
+    "word": "Rise and shine",
+    "type": "Idiom",
+    "answer": "A cheerful phrase used to tell someone to wake up"
+  },
+  {
+    "word": "Screen out",
+    "type": "Phrasal Verb",
+    "answer": "To remove or exclude something unwanted from a group or process"
+  },
+  {
+    "word": "Poultry farmer",
+    "type": "Occupation",
+    "answer": "A farmer who raises chickens or other birds for meat or eggs"
+  },
+  {
+    "word": "Chicken coop",
+    "type": "Specialized Place",
+    "answer": "A small structure used to house chickens"
+  },
+  {
+    "word": "Rome wasn't built in a day",
+    "type": "Idiom",
+    "answer": "Important achievements take a long time and cannot be rushed"
+  },
+  {
+    "word": "See through",
+    "type": "Phrasal Verb",
+    "answer": "To recognize the truth behind a deception, or to finish a task completely"
+  },
+  {
+    "word": "Pig farmer",
+    "type": "Occupation",
+    "answer": "A farmer who raises pigs, usually for meat production"
+  },
+  {
+    "word": "Pigsty",
+    "type": "Specialized Place",
+    "answer": "A pen where pigs are kept on a farm"
+  },
+  {
+    "word": "Rule of thumb",
+    "type": "Idiom",
+    "answer": "A general guideline based on practical experience rather than exact rules"
+  },
+  {
+    "word": "Sell out",
+    "type": "Phrasal Verb",
+    "answer": "For all tickets or products to be purchased, leaving none available"
+  },
+  {
+    "word": "Agronomist",
+    "type": "Occupation",
+    "answer": "A scientist who studies soil and crop production to improve farming"
+  },
+  {
+    "word": "Agricultural research station",
+    "type": "Specialized Place",
+    "answer": "A facility where scientists test methods to improve crops and soil"
+  },
+  {
+    "word": "Run of the mill",
+    "type": "Idiom",
+    "answer": "Ordinary and not special in any way"
+  },
+  {
+    "word": "Send off",
+    "type": "Phrasal Verb",
+    "answer": "To mail something, or to make a player leave a game as punishment"
+  },
+  {
+    "word": "Irrigation engineer",
+    "type": "Occupation",
+    "answer": "An engineer who designs systems to bring water to farmland"
+  },
+  {
+    "word": "Irrigation canal",
+    "type": "Specialized Place",
+    "answer": "A man-made waterway used to carry water to fields for farming"
+  },
+  {
+    "word": "See eye to eye",
+    "type": "Idiom",
+    "answer": "To agree with someone about something"
+  },
+  {
+    "word": "Settle down",
+    "type": "Phrasal Verb",
+    "answer": "To become calm, or to start living a stable, quiet life"
+  },
+  {
+    "word": "Combine harvester operator",
+    "type": "Occupation",
+    "answer": "A worker who drives a large machine used to harvest crops"
+  },
+  {
+    "word": "Grain elevator",
+    "type": "Specialized Place",
+    "answer": "A tall structure used to store and load harvested grain"
+  },
+  {
+    "word": "Shape up or ship out",
+    "type": "Idiom",
+    "answer": "Improve your behavior or performance, or leave"
+  },
+  {
+    "word": "Shrug off",
+    "type": "Phrasal Verb",
+    "answer": "To treat something as unimportant and not let it bother you"
+  },
+  {
+    "word": "Orchard keeper",
+    "type": "Occupation",
+    "answer": "A person who tends and manages an orchard of fruit trees"
+  },
+  {
+    "word": "Orchard",
+    "type": "Specialized Place",
+    "answer": "A piece of land planted with fruit trees"
+  },
+  {
+    "word": "Sit tight",
+    "type": "Idiom",
+    "answer": "To wait patiently and not take any action"
+  },
+  {
+    "word": "Simmer down",
+    "type": "Phrasal Verb",
+    "answer": "To become calmer after being upset or excited"
+  },
+  {
+    "word": "Vintner's cooper",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds wine barrels for a winery"
+  },
+  {
+    "word": "Barrel aging room",
+    "type": "Specialized Place",
+    "answer": "A cool storage room where wine or spirits mature in barrels"
+  },
+  {
+    "word": "Slow and steady wins the race",
+    "type": "Idiom",
+    "answer": "Careful, consistent effort leads to success more than rushing"
+  },
+  {
+    "word": "Skim through",
+    "type": "Phrasal Verb",
+    "answer": "To read something quickly without reading every detail"
+  },
+  {
+    "word": "Beekeeping inspector",
+    "type": "Occupation",
+    "answer": "An official who checks beehives for disease and proper care"
+  },
+  {
+    "word": "Honey processing plant",
+    "type": "Specialized Place",
+    "answer": "A facility where honey is filtered, bottled, and prepared for sale"
+  },
+  {
+    "word": "Small talk",
+    "type": "Idiom",
+    "answer": "Light, casual conversation about unimportant topics"
+  },
+  {
+    "word": "Slip away",
+    "type": "Phrasal Verb",
+    "answer": "To leave quietly without being noticed"
+  },
+  {
+    "word": "Silkworm farmer",
+    "type": "Occupation",
+    "answer": "A person who raises silkworms to produce silk thread"
+  },
+  {
+    "word": "Silk reeling mill",
+    "type": "Specialized Place",
+    "answer": "A factory where silk thread is unwound from cocoons"
+  },
+  {
+    "word": "Smell a rat",
+    "type": "Idiom",
+    "answer": "To suspect that something is wrong or dishonest"
+  },
+  {
+    "word": "Smooth over",
+    "type": "Phrasal Verb",
+    "answer": "To make a problem or disagreement seem less serious"
+  },
+  {
+    "word": "Cotton gin operator",
+    "type": "Occupation",
+    "answer": "A worker who operates machinery that separates cotton fibers from seeds"
+  },
+  {
+    "word": "Cotton gin",
+    "type": "Specialized Place",
+    "answer": "A building housing machinery that separates cotton fiber from its seeds"
+  },
+  {
+    "word": "Sour grapes",
+    "type": "Idiom",
+    "answer": "Pretending not to want something after failing to get it"
+  },
+  {
+    "word": "Spring up",
+    "type": "Phrasal Verb",
+    "answer": "To appear or develop suddenly"
+  },
+  {
+    "word": "Wool grader",
+    "type": "Occupation",
+    "answer": "A worker who sorts sheep's wool by quality after shearing"
+  },
+  {
+    "word": "Shearing shed",
+    "type": "Specialized Place",
+    "answer": "A farm building where sheep are sheared for their wool"
+  },
+  {
+    "word": "Spread yourself too thin",
+    "type": "Idiom",
+    "answer": "To take on too many tasks to do any of them well"
+  },
+  {
+    "word": "Square up",
+    "type": "Phrasal Verb",
+    "answer": "To settle a debt, or to prepare to face a challenge"
+  },
+  {
+    "word": "Leather tanner's assistant",
+    "type": "Occupation",
+    "answer": "A trainee who helps process animal hides into leather"
+  },
+  {
+    "word": "Tanning pit",
+    "type": "Specialized Place",
+    "answer": "A large pit used to soak and treat hides during leather-making"
+  },
+  {
+    "word": "Stick your neck out",
+    "type": "Idiom",
+    "answer": "To take a risk in order to do or say something"
+  },
+  {
+    "word": "Stack up",
+    "type": "Phrasal Verb",
+    "answer": "To compare in quality against others, or to pile things up"
+  },
+  {
+    "word": "Rope maker's apprentice",
+    "type": "Occupation",
+    "answer": "A trainee learning the craft of twisting fibers into rope"
+  },
+  {
+    "word": "Rope walk",
+    "type": "Specialized Place",
+    "answer": "A long, narrow building traditionally used to twist and lay rope"
+  },
+  {
+    "word": "Straw that broke the camel's back",
+    "type": "Idiom",
+    "answer": "The final small problem that causes a bigger collapse or reaction"
+  },
+  {
+    "word": "Step down",
+    "type": "Phrasal Verb",
+    "answer": "To resign from a position of responsibility"
+  },
+  {
+    "word": "Basket weaver",
+    "type": "Occupation",
+    "answer": "A craftsperson who makes baskets by weaving materials like reeds"
+  },
+  {
+    "word": "Weaving workshop",
+    "type": "Specialized Place",
+    "answer": "A studio where craftspeople weave cloth or baskets"
+  },
+  {
+    "word": "Take a rain check",
+    "type": "Idiom",
+    "answer": "To postpone an invitation to a later time"
+  },
+  {
+    "word": "Step in",
+    "type": "Phrasal Verb",
+    "answer": "To become involved in a situation to help or intervene"
+  },
+  {
+    "word": "Textile designer",
+    "type": "Occupation",
+    "answer": "A person who designs patterns and fabrics for clothing and other products"
+  },
+  {
+    "word": "Textile mill",
+    "type": "Specialized Place",
+    "answer": "A factory where fabric is manufactured from fibers"
+  },
+  {
+    "word": "Dye maker",
+    "type": "Occupation",
+    "answer": "A person who produces coloring substances used to dye fabric"
+  },
+  {
+    "word": "Dye house",
+    "type": "Specialized Place",
+    "answer": "A building where cloth is treated and colored with dye"
+  },
+  {
+    "word": "Take it with a grain of salt",
+    "type": "Idiom",
+    "answer": "To not fully believe something and remain a little skeptical"
+  },
+  {
+    "word": "Stir up trouble",
+    "type": "Idiom",
+    "answer": "To cause conflict or problems between people"
+  },
+  {
+    "word": "Storm out",
+    "type": "Phrasal Verb",
+    "answer": "To leave a place quickly, showing anger"
+  },
+  {
+    "word": "Embroiderer",
+    "type": "Occupation",
+    "answer": "A craftsperson who decorates fabric with needle and thread designs"
+  },
+  {
+    "word": "Sewing atelier",
+    "type": "Specialized Place",
+    "answer": "A workshop where clothing is designed and sewn, often for fashion"
+  },
+  {
+    "word": "The last laugh",
+    "type": "Idiom",
+    "answer": "Final success or victory after being doubted or mocked"
+  },
+  {
+    "word": "Strike up",
+    "type": "Phrasal Verb",
+    "answer": "To begin a conversation or friendship"
+  },
+  {
+    "word": "Fashion designer",
+    "type": "Occupation",
+    "answer": "A person who creates original designs for clothing"
+  },
+  {
+    "word": "Fashion showroom",
+    "type": "Specialized Place",
+    "answer": "A space where clothing designs are displayed to buyers and press"
+  },
+  {
+    "word": "The tip of the iceberg",
+    "type": "Idiom",
+    "answer": "A small, visible part of a much larger problem or situation"
+  },
+  {
+    "word": "Suck up to",
+    "type": "Phrasal Verb",
+    "answer": "To flatter someone in order to gain their favor"
+  },
+  {
+    "word": "Pattern maker",
+    "type": "Occupation",
+    "answer": "A person who creates the templates used to cut fabric for clothing"
+  },
+  {
+    "word": "Cutting room",
+    "type": "Specialized Place",
+    "answer": "A workspace where fabric is cut according to clothing patterns"
+  },
+  {
+    "word": "Through the grapevine",
+    "type": "Idiom",
+    "answer": "Hearing information informally through gossip or rumor"
+  },
+  {
+    "word": "Swear off",
+    "type": "Phrasal Verb",
+    "answer": "To promise to give up doing something"
+  },
+  {
+    "word": "Textile inspector",
+    "type": "Occupation",
+    "answer": "A worker who checks fabric for quality and defects"
+  },
+  {
+    "word": "Quality control lab",
+    "type": "Specialized Place",
+    "answer": "A facility where products are tested to ensure they meet standards"
+  },
+  {
+    "word": "Throw in the towel",
+    "type": "Idiom",
+    "answer": "To give up on something"
+  },
+  {
+    "word": "Sweep aside",
+    "type": "Phrasal Verb",
+    "answer": "To dismiss or ignore something without considering it"
+  },
+  {
+    "word": "Silversmith",
+    "type": "Occupation",
+    "answer": "A craftsperson who makes objects and jewelry out of silver"
+  },
+  {
+    "word": "Metalworking forge",
+    "type": "Specialized Place",
+    "answer": "A workshop with a furnace used to shape metal by heating it"
+  },
+  {
+    "word": "Tie the knot",
+    "type": "Idiom",
+    "answer": "To get married"
+  },
+  {
+    "word": "Switch off",
+    "type": "Phrasal Verb",
+    "answer": "To turn off a device, or to stop paying attention"
+  },
+  {
+    "word": "Goldsmith",
+    "type": "Occupation",
+    "answer": "A craftsperson who makes jewelry and objects out of gold"
+  },
+  {
+    "word": "Bullion vault",
+    "type": "Specialized Place",
+    "answer": "A highly secure room used to store gold and silver bars"
+  },
+  {
+    "word": "Turn a new leaf",
+    "type": "Idiom",
+    "answer": "To start behaving in a better way than before"
+  },
+  {
+    "word": "Take on",
+    "type": "Phrasal Verb",
+    "answer": "To accept a responsibility, job, or challenge"
+  },
+  {
+    "word": "Coppersmith",
+    "type": "Occupation",
+    "answer": "A craftsperson who shapes and works with copper"
+  },
+  {
+    "word": "Coppersmith's forge",
+    "type": "Specialized Place",
+    "answer": "A workshop equipped with tools for heating and shaping copper"
+  },
+  {
+    "word": "Turn over a new leaf",
+    "type": "Idiom",
+    "answer": "To change your behavior for the better and start fresh"
+  },
+  {
+    "word": "Talk over",
+    "type": "Phrasal Verb",
+    "answer": "To discuss something in detail with someone"
+  },
+  {
+    "word": "Pewterer",
+    "type": "Occupation",
+    "answer": "A craftsperson who makes objects from a metal alloy called pewter"
+  },
+  {
+    "word": "Pewter workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where pewter items like cups and plates are cast"
+  },
+  {
+    "word": "Two heads are better than one",
+    "type": "Idiom",
+    "answer": "Working together with someone often produces better solutions"
+  },
+  {
+    "word": "Tear down",
+    "type": "Phrasal Verb",
+    "answer": "To demolish a building, or to criticize something harshly"
+  },
+  {
+    "word": "Bronze caster",
+    "type": "Occupation",
+    "answer": "A craftsperson who pours molten bronze into molds to create objects"
+  },
+  {
+    "word": "Bronze foundry",
+    "type": "Specialized Place",
+    "answer": "A workshop where bronze statues and objects are cast"
+  },
+  {
+    "word": "Under lock and key",
+    "type": "Idiom",
+    "answer": "Kept very securely and safely"
+  },
+  {
+    "word": "Think through",
+    "type": "Phrasal Verb",
+    "answer": "To consider all aspects of a decision carefully"
+  },
+  {
+    "word": "Enamellist",
+    "type": "Occupation",
+    "answer": "An artist who decorates metal or glass with colored enamel"
+  },
+  {
+    "word": "Enamel kiln room",
+    "type": "Specialized Place",
+    "answer": "A workshop with a special oven used to fuse enamel onto metal"
+  },
+  {
+    "word": "Up in the air",
+    "type": "Idiom",
+    "answer": "Uncertain and not yet decided"
+  },
+  {
+    "word": "Trade in",
+    "type": "Phrasal Verb",
+    "answer": "To exchange an old item as part of the payment for a new one"
+  },
+  {
+    "word": "Engraver",
+    "type": "Occupation",
+    "answer": "A person who carves designs or text into metal, wood, or glass"
+  },
+  {
+    "word": "Engraving studio",
+    "type": "Specialized Place",
+    "answer": "A workspace equipped with tools for carving designs into hard surfaces"
+  },
+  {
+    "word": "Wear your heart on your sleeve",
+    "type": "Idiom",
+    "answer": "To openly show your emotions"
+  },
+  {
+    "word": "Trickle in",
+    "type": "Phrasal Verb",
+    "answer": "To arrive gradually, in small amounts, over time"
+  },
+  {
+    "word": "Gem setter",
+    "type": "Occupation",
+    "answer": "A jeweler who fixes precious stones securely into jewelry settings"
+  },
+  {
+    "word": "Jewelry vault",
+    "type": "Specialized Place",
+    "answer": "A secure, locked room used to store valuable jewelry"
+  },
+  {
+    "word": "When it rains, it pours",
+    "type": "Idiom",
+    "answer": "Many problems or events tend to happen all at once"
+  },
+  {
+    "word": "Trip up",
+    "type": "Phrasal Verb",
+    "answer": "To cause someone to make a mistake"
+  },
+  {
+    "word": "Diamond cutter",
+    "type": "Occupation",
+    "answer": "A craftsperson who shapes and polishes rough diamonds"
+  },
+  {
+    "word": "Diamond cutting workshop",
+    "type": "Specialized Place",
+    "answer": "A precise studio where raw diamonds are shaped into gems"
+  },
+  {
+    "word": "Wild goose chase",
+    "type": "Idiom",
+    "answer": "A pointless search that has no chance of success"
+  },
+  {
+    "word": "Turn up",
+    "type": "Phrasal Verb",
+    "answer": "To arrive somewhere, or to increase the volume or level of something"
+  },
+  {
+    "word": "Clockwork mechanic",
+    "type": "Occupation",
+    "answer": "A specialist who repairs the gears and springs inside mechanical clocks"
+  },
+  {
+    "word": "Clock repair shop",
+    "type": "Specialized Place",
+    "answer": "A small workshop specializing in fixing clocks and watches"
+  },
+  {
+    "word": "You can't judge a book by its cover",
+    "type": "Idiom",
+    "answer": "You shouldn't form an opinion about something based only on how it looks"
+  },
+  {
+    "word": "Vouch for",
+    "type": "Phrasal Verb",
+    "answer": "To confirm that you trust or believe in someone"
+  },
+  {
+    "word": "Instrument maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds musical instruments by hand"
+  },
+  {
+    "word": "Luthier's workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where stringed instruments like violins and guitars are made"
+  },
+  {
+    "word": "You can't win them all",
+    "type": "Idiom",
+    "answer": "It's normal to sometimes fail even if you usually succeed"
+  },
+  {
+    "word": "Wade in",
+    "type": "Phrasal Verb",
+    "answer": "To get involved in a difficult discussion or task"
+  },
+  {
+    "word": "Piano tuner",
+    "type": "Occupation",
+    "answer": "A specialist who adjusts a piano's strings to produce the correct pitch"
+  },
+  {
+    "word": "Piano workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where pianos are built, repaired, and tuned"
+  },
+  {
+    "word": "You scratch my back, I'll scratch yours",
+    "type": "Idiom",
+    "answer": "If you help me, I will help you in return"
+  },
+  {
+    "word": "Wash out",
+    "type": "Phrasal Verb",
+    "answer": "For an event to be canceled because of rain or bad weather"
+  },
+  {
+    "word": "Organ builder",
+    "type": "Occupation",
+    "answer": "A craftsperson who constructs large pipe organs, often for churches"
+  },
+  {
+    "word": "Organ loft",
+    "type": "Specialized Place",
+    "answer": "A raised area in a church where a large pipe organ is located"
+  },
+  {
+    "word": "A stitch in time saves nine",
+    "type": "Idiom",
+    "answer": "Fixing a small problem now prevents it from becoming a bigger one later"
+  },
+  {
+    "word": "Weigh in on",
+    "type": "Phrasal Verb",
+    "answer": "To give your opinion about a topic or discussion"
+  },
+  {
+    "word": "Bell founder",
+    "type": "Occupation",
+    "answer": "A craftsperson who casts large bells from molten metal"
+  },
+  {
+    "word": "Bell foundry",
+    "type": "Specialized Place",
+    "answer": "A workshop where large bells are cast and tuned"
+  },
+  {
+    "word": "Add up",
+    "type": "Phrasal Verb",
+    "answer": "To make sense, or to calculate a total"
+  },
+  {
+    "word": "Absence makes the heart grow fonder",
+    "type": "Idiom",
+    "answer": "Being apart from someone can make you appreciate them more"
+  },
+  {
+    "word": "Sail maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who designs and sews sails for boats"
+  },
+  {
+    "word": "Sail loft",
+    "type": "Specialized Place",
+    "answer": "A large open workshop used to design and sew boat sails"
+  },
+  {
+    "word": "All in a day's work",
+    "type": "Idiom",
+    "answer": "Something that is a normal, expected part of your job"
+  },
+  {
+    "word": "Whip up",
+    "type": "Phrasal Verb",
+    "answer": "To quickly prepare something, like food or excitement"
+  },
+  {
+    "word": "Rigger",
+    "type": "Occupation",
+    "answer": "A worker who sets up ropes, cables, and equipment on ships or stages"
+  },
+  {
+    "word": "Rigging loft",
+    "type": "Specialized Place",
+    "answer": "A workshop where ship ropes and rigging equipment are prepared"
+  },
+  {
+    "word": "As stubborn as a mule",
+    "type": "Idiom",
+    "answer": "Extremely unwilling to change your mind or behavior"
+  },
+  {
+    "word": "Wind up",
+    "type": "Phrasal Verb",
+    "answer": "To end up in a particular situation, or to tighten a mechanism"
+  },
+  {
+    "word": "Boatbuilder",
+    "type": "Occupation",
+    "answer": "A craftsperson who constructs wooden or fiberglass boats by hand"
+  },
+  {
+    "word": "Boat shed",
+    "type": "Specialized Place",
+    "answer": "A building used to build, store, or repair small boats"
+  },
+  {
+    "word": "Bend over backwards",
+    "type": "Idiom",
+    "answer": "To try very hard to help someone or please them"
+  },
+  {
+    "word": "Write off",
+    "type": "Phrasal Verb",
+    "answer": "To dismiss something as unimportant, or to cancel a debt"
+  },
+  {
+    "word": "Mast maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who shapes wooden or metal masts used on sailing ships"
+  },
+  {
+    "word": "Mast shed",
+    "type": "Specialized Place",
+    "answer": "A workshop dedicated to building tall masts for sailing vessels"
+  },
+  {
+    "word": "Between a rock and a hard place",
+    "type": "Idiom",
+    "answer": "Facing two difficult choices with no good option"
+  },
+  {
+    "word": "Zero out",
+    "type": "Phrasal Verb",
+    "answer": "To reduce an amount completely down to nothing"
+  },
+  {
+    "word": "Anchor smith",
+    "type": "Occupation",
+    "answer": "A blacksmith who specializes in forging large ship anchors"
+  },
+  {
+    "word": "Anchor forge",
+    "type": "Specialized Place",
+    "answer": "A specialized forge used to hammer and shape heavy ship anchors"
+  },
+  {
+    "word": "Bite your tongue",
+    "type": "Idiom",
+    "answer": "To stop yourself from saying something you want to say"
+  },
+  {
+    "word": "Zip through",
+    "type": "Phrasal Verb",
+    "answer": "To finish something very quickly"
+  },
+  {
+    "word": "Compass maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds precise navigational compasses"
+  },
+  {
+    "word": "Instrument workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop specializing in building precise scientific tools"
+  },
+  {
+    "word": "Cast in stone",
+    "type": "Idiom",
+    "answer": "Fixed and unable to be changed"
+  },
+  {
+    "word": "Air your grievances",
+    "type": "Idiom",
+    "answer": "To openly express your complaints"
+  },
+  {
+    "word": "Bank up",
+    "type": "Phrasal Verb",
+    "answer": "To pile something up, or to accumulate over time"
+  },
+  {
+    "word": "Telescope maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who designs and builds telescopes for viewing space"
+  },
+  {
+    "word": "Optics laboratory",
+    "type": "Specialized Place",
+    "answer": "A lab where lenses and optical instruments are designed and tested"
+  },
+  {
+    "word": "Curiosity is the best teacher",
+    "type": "Idiom",
+    "answer": "Asking questions and exploring is one of the best ways to learn"
+  },
+  {
+    "word": "Barrel down",
+    "type": "Phrasal Verb",
+    "answer": "To move very fast, often in a vehicle"
+  },
+  {
+    "word": "Barometer maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds instruments used to measure air pressure"
+  },
+  {
+    "word": "Scientific instrument shop",
+    "type": "Specialized Place",
+    "answer": "A shop that sells and repairs precise measuring instruments"
+  },
+  {
+    "word": "Don't put off till tomorrow what you can do today",
+    "type": "Idiom",
+    "answer": "It's best to complete tasks promptly rather than delaying them"
+  },
+  {
+    "word": "Cave in",
+    "type": "Phrasal Verb",
+    "answer": "To collapse, or to give in to pressure after resisting"
+  },
+  {
+    "word": "Globe maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who designs and constructs globes of the Earth"
+  },
+  {
+    "word": "Cartography workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where detailed maps and globes are drawn and produced"
+  },
+  {
+    "word": "Every rose has its thorn",
+    "type": "Idiom",
+    "answer": "Even good things often come with a small downside"
+  },
+  {
+    "word": "Chase down",
+    "type": "Phrasal Verb",
+    "answer": "To pursue someone or something until you catch or find it"
+  },
+  {
+    "word": "Clockwork toy maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds mechanical wind-up toys"
+  },
+  {
+    "word": "Toy workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where handmade toys are designed and built"
+  },
+  {
+    "word": "Flying colors",
+    "type": "Idiom",
+    "answer": "Achieving great success, especially in a test or challenge"
+  },
+  {
+    "word": "Dish out",
+    "type": "Phrasal Verb",
+    "answer": "To distribute something, such as food, advice, or punishment"
+  },
+  {
+    "word": "Marionette maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who builds string-controlled puppets"
+  },
+  {
+    "word": "Puppet workshop",
+    "type": "Specialized Place",
+    "answer": "A studio where puppets are designed and constructed"
+  },
+  {
+    "word": "Full of beans",
+    "type": "Idiom",
+    "answer": "Having a lot of energy and enthusiasm"
+  },
+  {
+    "word": "Doll out",
+    "type": "Phrasal Verb",
+    "answer": "An informal way of saying to distribute or give out something"
+  },
+  {
+    "word": "Kite maker",
+    "type": "Occupation",
+    "answer": "A craftsperson who designs and builds kites"
+  },
+  {
+    "word": "Kite workshop",
+    "type": "Specialized Place",
+    "answer": "A workshop where kites are designed and assembled by hand"
+  },
+  {
+    "word": "Get your act together",
+    "type": "Idiom",
+    "answer": "To organize yourself and start behaving more responsibly"
+  },
+  {
+    "word": "Doze off into",
+    "type": "Phrasal Verb",
+    "answer": "To gradually fall asleep while doing something else"
+  },
+  {
+    "word": "Balloonist",
+    "type": "Occupation",
+    "answer": "A person who pilots hot air balloons"
+  },
+  {
+    "word": "Balloon launch field",
+    "type": "Specialized Place",
+    "answer": "An open area used for inflating and launching hot air balloons"
+  },
+  {
+    "word": "Have a whale of a time",
+    "type": "Idiom",
+    "answer": "To enjoy yourself very much"
+  },
+  {
+    "word": "Egg on",
+    "type": "Phrasal Verb",
+    "answer": "To encourage someone to do something, often something risky"
+  },
+  {
+    "word": "Glider pilot",
+    "type": "Occupation",
+    "answer": "A pilot who flies unpowered aircraft using rising air currents"
+  },
+  {
+    "word": "Glider hangar",
+    "type": "Specialized Place",
+    "answer": "A storage building for gliders and other small unpowered aircraft"
+  },
+  {
+    "word": "Hit the books",
+    "type": "Idiom",
+    "answer": "To begin studying seriously"
+  },
+  {
+    "word": "Fan out",
+    "type": "Phrasal Verb",
+    "answer": "To spread out in different directions from a central point"
+  },
+  {
+    "word": "Parachute rigger",
+    "type": "Occupation",
+    "answer": "A specialist who packs and inspects parachutes for safety"
+  },
+  {
+    "word": "Parachute packing room",
+    "type": "Specialized Place",
+    "answer": "A facility where parachutes are folded and inspected before use"
+  },
+  {
+    "word": "Keep your nose to the grindstone",
+    "type": "Idiom",
+    "answer": "To work hard and stay focused on a task"
+  },
+  {
+    "word": "Flare up",
+    "type": "Phrasal Verb",
+    "answer": "To suddenly become worse or more intense, like an argument or illness"
+  },
+  {
+    "word": "Skydiving instructor",
+    "type": "Occupation",
+    "answer": "A trained professional who teaches people to safely jump from planes"
+  },
+  {
+    "word": "Drop zone",
+    "type": "Specialized Place",
+    "answer": "A designated area where skydivers land after jumping"
+  },
+  {
+    "word": "Learn the hard way",
+    "type": "Idiom",
+    "answer": "To learn a lesson through a difficult or unpleasant experience"
+  },
+  {
+    "word": "Flip through",
+    "type": "Phrasal Verb",
+    "answer": "To quickly look through the pages of a book or magazine"
+  },
+  {
+    "word": "Hang glider instructor",
+    "type": "Occupation",
+    "answer": "A person who teaches others to fly hang gliders safely"
+  },
+  {
+    "word": "Launch ramp",
+    "type": "Specialized Place",
+    "answer": "A sloped platform used to help gliders and small aircraft take off"
+  },
+  {
+    "word": "Live and learn",
+    "type": "Idiom",
+    "answer": "You gain wisdom from your mistakes and experiences over time"
+  }
 ]
